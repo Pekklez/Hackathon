@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/cafe"
+            android:checked="true"
+            android:icon="@drawable/arrow_right"
+            android:title="Bebidas" />
+
+        <item
+            android:id="@+id/alimentos"
+            android:checked="false"
+            android:icon="@drawable/arrow_right"
+            android:title="Alimentos" />
+
+        <item
+            android:id="@+id/pedidos"
+            android:checked="false"
+            android:icon="@drawable/arrow_right"
+            android:title="Pedidos" />
+
+        <item
+            android:id="@+id/rutas"
+            android:checked="false"
+            android:icon="@drawable/arrow_right"
+            android:title="Rutas" />
+
+        <item
+            android:id="@+id/places"
+            android:checked="false"
+            android:icon="@drawable/arrow_right"
+            android:title="Eventos / Lugares de Interés" />
+
+    </group>
+    <item android:title="Sub items">
+        <menu>
+            <item
+                android:icon="@drawable/ic_cast_light"
+                android:title="Sub item 1" />
+            <item
+                android:icon="@drawable/arrow_right"
+                android:title="Sub item 2" />
+        </menu>
+    </item>
+</menu>
