@@ -93,7 +93,10 @@
             android:name="com.osterhoutgroup.api.ext"
             android:required="false" />
 
-        <activity android:name=".LogginActivity"></activity>
+        <activity android:name=".LogginActivity"
+            android:theme="@style/Theme.AppCompat">
+
+        </activity>
     </application>
 
 </manifest> <!-- android:installLocation="preferExternal" -->

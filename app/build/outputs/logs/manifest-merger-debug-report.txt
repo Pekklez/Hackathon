@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:2:1-99:12
+ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:2:1-102:12
 	package
 		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:3:5-22
 		INJECTED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml
@@ -118,7 +118,7 @@ ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\mai
 	android:name
 		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:45:30-85
 application
-ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:47:5-97:19
+ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:47:5-100:19
 MERGED from [com.facebook.android:facebook-android-sdk:4.17.0] C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.17.0\AndroidManifest.xml:28:5-38:19
 MERGED from [com.android.support:support-v4:25.0.0] C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.0\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-compat:25.0.0] C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\AndroidManifest.xml:25:5-20
@@ -140,7 +140,7 @@ MERGED from [com.android.support:customtabs:25.0.0] C:\Users\Adolfo\AndroidStudi
 	android:banner
 		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:48:9-46
 	android:theme
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:53:9-67
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:53:9-51
 	android:isGame
 		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:51:9-30
 activity#com.UAQ.UnityPlayerNativeActivity
@@ -206,7 +206,9 @@ ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\mai
 	android:name
 		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:93:13-54
 activity#com.UAQ.LogginActivity
-ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:96:9-61
+ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:96:9-99:20
+	android:theme
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:97:13-51
 	android:name
 		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:96:19-49
 activity#com.facebook.FacebookActivity
