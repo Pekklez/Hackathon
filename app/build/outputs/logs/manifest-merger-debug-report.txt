@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:2:1-103:12
+ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:2:1-102:12
 	package
 		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:3:5-22
 		INJECTED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml
@@ -20,7 +20,7 @@ ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\mai
 	android:theme
 		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:5:5-52
 uses-sdk
-ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:9:5-11:41
+ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:9:5-10:42
 MERGED from [com.facebook.android:facebook-android-sdk:4.17.0] C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.17.0\AndroidManifest.xml:24:5-26:41
 MERGED from [com.android.support:support-v4:25.0.0] C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.0\AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-compat:25.0.0] C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\AndroidManifest.xml:21:5-23:58
@@ -66,31 +66,30 @@ MERGED from [com.google.android.gms:play-services-wearable:8.3.0] C:\Users\Adolf
 	tools:overrideLibrary
 		ADDED from [com.android.support:support-v4:25.0.0] C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.0\AndroidManifest.xml:23:9-51
 	android:targetSdkVersion
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:11:9-38
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:10:10-39
 		INJECTED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:10:9-35
 		INJECTED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml
 uses-feature#android.hardware.camera
-ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:13:5-60
+ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:12:5-60
 	android:name
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:13:19-57
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:12:19-57
 supports-screens
-ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:15:5-20:40
+ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:14:5-19:40
 	android:largeScreens
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:17:9-36
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:16:9-36
 	android:smallScreens
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:19:9-36
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:18:9-36
 	android:normalScreens
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:18:9-37
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:17:9-37
 	android:xlargeScreens
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:20:9-37
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:19:9-37
 	android:anyDensity
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:16:9-34
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:15:9-34
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:22:5-67
+ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:21:5-67
 MERGED from [com.google.android.gms:play-services-ads:8.3.0] C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.3.0\AndroidManifest.xml:20:5-66
 MERGED from [com.google.android.gms:play-services-analytics:8.3.0] C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\8.3.0\AndroidManifest.xml:21:5-67
 MERGED from [com.google.android.gms:play-services-appinvite:8.3.0] C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\8.3.0\AndroidManifest.xml:19:5-67
@@ -99,71 +98,71 @@ MERGED from [com.google.android.gms:play-services-gcm:8.3.0] C:\Users\Adolfo\And
 MERGED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:21:5-67
 MERGED from [com.google.android.gms:play-services-wallet:8.3.0] C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\8.3.0\AndroidManifest.xml:20:5-66
 	android:name
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:22:22-64
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:21:22-64
 uses-permission#android.permission.CAMERA
-ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:23:5-65
+ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:22:5-65
 	android:name
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:23:22-62
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:22:22-62
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:24:5-79
+ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:23:5-79
 MERGED from [com.google.android.gms:play-services-ads:8.3.0] C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.3.0\AndroidManifest.xml:21:5-78
 MERGED from [com.google.android.gms:play-services-analytics:8.3.0] C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\8.3.0\AndroidManifest.xml:22:5-79
 MERGED from [com.google.android.gms:play-services-maps:8.3.0] C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.3.0\AndroidManifest.xml:20:5-78
 MERGED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:22:5-79
 MERGED from [com.google.android.gms:play-services-nearby:8.3.0] C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\8.3.0\AndroidManifest.xml:19:5-79
 	android:name
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:24:22-76
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:23:22-76
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:25:5-81
+ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:24:5-81
 	android:name
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:25:22-78
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:24:22-78
 uses-feature#0x00020000
-ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:27:5-54
+ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:26:5-54
 MERGED from [com.google.android.gms:play-services-maps:8.3.0] C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.3.0\AndroidManifest.xml:22:5-24:33
 	android:glEsVersion
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:27:19-51
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:26:19-51
 	android:required
 		ADDED from [com.google.android.gms:play-services-maps:8.3.0] C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.3.0\AndroidManifest.xml:24:8-31
 uses-feature#android.hardware.camera.autofocus
-ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:28:5-30:36
+ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:27:5-29:36
 	android:required
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:30:9-33
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:29:9-33
 	android:name
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:29:9-57
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:28:9-57
 uses-feature#android.hardware.camera.front
-ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:31:5-33:36
+ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:30:5-32:36
 	android:required
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:33:9-33
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:32:9-33
 	android:name
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:32:9-53
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:31:9-53
 uses-feature#android.hardware.touchscreen
-ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:34:5-36:36
+ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:33:5-35:36
 	android:required
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:36:9-33
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:35:9-33
 	android:name
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:35:9-52
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:34:9-52
 uses-feature#android.hardware.touchscreen.multitouch
-ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:37:5-39:36
+ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:36:5-38:36
 	android:required
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:39:9-33
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:38:9-33
 	android:name
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:38:9-63
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:37:9-63
 uses-feature#android.hardware.touchscreen.multitouch.distinct
-ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:40:5-42:36
+ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:39:5-41:36
 	android:required
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:42:9-33
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:41:9-33
 	android:name
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:41:9-72
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:40:9-72
 android:uses-permission#android.permission.READ_PHONE_STATE
-ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:44:5-83
+ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:43:5-83
 	android:name
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:44:30-80
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:43:30-80
 android:uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:45:5-88
+ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:44:5-88
 	android:name
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:45:30-85
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:44:30-85
 application
-ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:47:5-101:19
+ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:46:5-100:19
 MERGED from [com.facebook.android:facebook-android-sdk:4.17.0] C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.17.0\AndroidManifest.xml:28:5-38:19
 MERGED from [com.android.support:support-v4:25.0.0] C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.0\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-compat:25.0.0] C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\AndroidManifest.xml:25:5-20
@@ -204,93 +203,93 @@ MERGED from [com.google.android.gms:play-services-safetynet:8.3.0] C:\Users\Adol
 MERGED from [com.google.android.gms:play-services-vision:8.3.0] C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\8.3.0\AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-wearable:8.3.0] C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\8.3.0\AndroidManifest.xml:19:5-20
 	android:label
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:52:9-41
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:51:9-41
 	android:debuggable
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:49:9-35
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:48:9-35
 	android:icon
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:50:9-42
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:49:9-42
 	android:banner
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:48:9-46
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:47:9-46
 	android:theme
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:53:9-51
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:52:9-51
 	android:isGame
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:51:9-30
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:50:9-30
 activity#com.UAQ.UnityPlayerNativeActivity
-ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:54:9-66:20
+ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:53:9-65:20
 	android:screenOrientation
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:59:13-51
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:58:13-51
 	android:label
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:57:13-45
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:56:13-45
 	android:launchMode
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:58:13-44
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:57:13-44
 	android:configChanges
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:56:13-170
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:55:13-170
 	android:name
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:55:13-54
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:54:13-54
 meta-data#unityplayer.UnityActivity
-ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:60:13-62:40
+ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:59:13-61:40
 	android:value
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:62:17-37
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:61:17-37
 	android:name
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:61:17-57
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:60:17-57
 meta-data#unityplayer.ForwardNativeEventsToDalvik
-ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:63:13-65:41
+ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:62:13-64:41
 	android:value
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:65:17-38
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:64:17-38
 	android:name
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:64:17-71
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:63:17-71
 activity#com.UAQ.SplashActivity
-ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:67:9-75:20
+ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:66:9-74:20
 	android:theme
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:69:13-47
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:68:13-47
 	android:name
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:68:13-43
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:67:13-43
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:70:13-74:29
+ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:69:13-73:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:71:17-69
+ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:70:17-69
 	android:name
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:71:25-66
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:70:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:73:17-77
+ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:72:17-77
 	android:name
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:73:27-74
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:72:27-74
 activity#com.unity3d.player.VideoPlayer
-ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:76:9-80:52
+ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:75:9-79:52
 	android:screenOrientation
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:80:13-49
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:79:13-49
 	android:label
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:79:13-45
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:78:13-45
 	android:configChanges
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:78:13-170
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:77:13-170
 	android:name
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:77:13-58
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:76:13-58
 uses-library#com.ti.s3d
-ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:86:9-88:40
+ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:85:9-87:40
 	android:required
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:88:13-37
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:87:13-37
 	android:name
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:87:13-38
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:86:13-38
 uses-library#com.osterhoutgroup.api.ext
-ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:90:9-92:40
+ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:89:9-91:40
 	android:required
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:92:13-37
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:91:13-37
 	android:name
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:91:13-54
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:90:13-54
 activity#com.UAQ.LogginActivity
-ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:94:9-96:63
+ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:93:9-95:63
 	android:theme
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:96:13-51
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:95:13-51
 	android:name
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:95:13-43
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:94:13-43
 activity#com.UAQ.MainActivity
-ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:97:9-100:56
+ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:96:9-99:56
 	android:label
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:99:13-56
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:98:13-56
 	android:theme
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:100:13-44
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:99:13-44
 	android:name
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:98:13-41
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:97:13-41
 activity#com.facebook.FacebookActivity
 ADDED from [com.facebook.android:facebook-android-sdk:4.17.0] C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.17.0\AndroidManifest.xml:29:9-32:66
 	android:configChanges

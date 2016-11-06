@@ -322,7 +322,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="5e21157d4013ea2bbd8bfed6e9df3996ef90daef">
+        sha1="e7d819c96fdf618495a2135f0028265fabed1ab6">
         <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_8e87d6fae474de7a54239cfa645f7ceec9574822\classes.dex" />
     </item>
     <item
