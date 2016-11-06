@@ -134,6 +134,19 @@
             android:name="com.UAQ.MapsActivity"
             android:label="@string/title_activity_maps"
             android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.UAQ.UnityPlayerActivity"
+            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="fullSensor" >
+            <meta-data
+                android:name="unityplayer.UnityActivity"
+                android:value="true" />
+            <meta-data
+                android:name="unityplayer.ForwardNativeEventsToDalvik"
+                android:value="false" />
+        </activity>
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"

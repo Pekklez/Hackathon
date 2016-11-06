@@ -49,10 +49,12 @@
     <color name="accentColor">#FF9E9E9E</color>
     <color name="accent_material_dark">@color/material_deep_teal_200</color>
     <color name="accent_material_light">@color/material_deep_teal_500</color>
+    <item name="azul" type="color">#009999</item>
     <color name="background_floating_material_dark">@color/material_grey_800</color>
     <color name="background_floating_material_light">@android:color/white</color>
     <color name="background_material_dark">@color/material_grey_850</color>
     <color name="background_material_light">@color/material_grey_50</color>
+    <item name="blanco" type="color">#FFF</item>
     <item name="blue" type="color">#FF33B5E5</item>
     <color name="bright_foreground_disabled_material_dark">#80ffffff</color>
     <color name="bright_foreground_disabled_material_light">#80000000</color>
@@ -128,6 +130,7 @@
     <color name="foreground_material_dark">@android:color/white</color>
     <color name="foreground_material_light">@android:color/black</color>
     <item name="green" type="color">#FF99CC00</item>
+    <item name="gris" type="color">#99989d</item>
     <color name="highlighted_text_material_dark">#6680cbc4</color>
     <color name="highlighted_text_material_light">#66009688</color>
     <color name="material_blue_grey_800">#ff37474f</color>
@@ -164,6 +167,7 @@
     <item name="red" type="color">#FFFF4444</item>
     <color name="ripple_material_dark">#33ffffff</color>
     <color name="ripple_material_light">#1f000000</color>
+    <item name="rosa" type="color">#bf3160</item>
     <color name="secondary_text_default_material_dark">#b3ffffff</color>
     <color name="secondary_text_default_material_light">#8a000000</color>
     <color name="secondary_text_disabled_material_dark">#36ffffff</color>
@@ -249,6 +253,7 @@
             <enum name="wrap_content" value="0"/>
         </attr><attr format="reference" name="actionBarDivider"/><attr format="reference" name="actionBarItemBackground"/><attr format="reference" name="actionMenuTextAppearance"/><attr format="color|reference" name="actionMenuTextColor"/><attr format="reference" name="actionModeStyle"/><attr format="reference" name="actionModeCloseButtonStyle"/><attr format="reference" name="actionModeBackground"/><attr format="reference" name="actionModeSplitBackground"/><attr format="reference" name="actionModeCloseDrawable"/><attr format="reference" name="actionModeCutDrawable"/><attr format="reference" name="actionModeCopyDrawable"/><attr format="reference" name="actionModePasteDrawable"/><attr format="reference" name="actionModeSelectAllDrawable"/><attr format="reference" name="actionModeShareDrawable"/><attr format="reference" name="actionModeFindDrawable"/><attr format="reference" name="actionModeWebSearchDrawable"/><attr format="reference" name="actionModePopupWindowStyle"/><attr format="reference" name="textAppearanceLargePopupMenu"/><attr format="reference" name="textAppearanceSmallPopupMenu"/><attr format="reference" name="textAppearancePopupMenuHeader"/><attr format="reference" name="dialogTheme"/><attr format="dimension" name="dialogPreferredPadding"/><attr format="reference" name="listDividerAlertDialog"/><attr format="reference" name="actionDropDownStyle"/><attr format="dimension" name="dropdownListPreferredItemHeight"/><attr format="reference" name="spinnerDropDownItemStyle"/><attr format="reference" name="homeAsUpIndicator"/><attr format="reference" name="actionButtonStyle"/><attr format="reference" name="buttonBarStyle"/><attr format="reference" name="buttonBarButtonStyle"/><attr format="reference" name="selectableItemBackground"/><attr format="reference" name="selectableItemBackgroundBorderless"/><attr format="reference" name="borderlessButtonStyle"/><attr format="reference" name="dividerVertical"/><attr format="reference" name="dividerHorizontal"/><attr format="reference" name="activityChooserViewStyle"/><attr format="reference" name="toolbarStyle"/><attr format="reference" name="toolbarNavigationButtonStyle"/><attr format="reference" name="popupMenuStyle"/><attr format="reference" name="popupWindowStyle"/><attr format="reference|color" name="editTextColor"/><attr format="reference" name="editTextBackground"/><attr format="reference" name="imageButtonStyle"/><attr format="reference" name="textAppearanceSearchResultTitle"/><attr format="reference" name="textAppearanceSearchResultSubtitle"/><attr format="reference|color" name="textColorSearchUrl"/><attr format="reference" name="searchViewStyle"/><attr format="dimension" name="listPreferredItemHeight"/><attr format="dimension" name="listPreferredItemHeightSmall"/><attr format="dimension" name="listPreferredItemHeightLarge"/><attr format="dimension" name="listPreferredItemPaddingLeft"/><attr format="dimension" name="listPreferredItemPaddingRight"/><attr format="reference" name="dropDownListViewStyle"/><attr format="reference" name="listPopupWindowStyle"/><attr format="reference" name="textAppearanceListItem"/><attr format="reference" name="textAppearanceListItemSmall"/><attr format="reference" name="panelBackground"/><attr format="dimension" name="panelMenuListWidth"/><attr format="reference" name="panelMenuListTheme"/><attr format="reference" name="listChoiceBackgroundIndicator"/><attr format="color" name="colorPrimary"/><attr format="color" name="colorPrimaryDark"/><attr format="color" name="colorAccent"/><attr format="color" name="colorControlNormal"/><attr format="color" name="colorControlActivated"/><attr format="color" name="colorControlHighlight"/><attr format="color" name="colorButtonNormal"/><attr format="color" name="colorSwitchThumbNormal"/><attr format="reference" name="controlBackground"/><attr format="color" name="colorBackgroundFloating"/><attr format="reference" name="alertDialogStyle"/><attr format="reference" name="alertDialogButtonGroupStyle"/><attr format="boolean" name="alertDialogCenterButtons"/><attr format="reference" name="alertDialogTheme"/><attr format="reference|color" name="textColorAlertDialogListItem"/><attr format="reference" name="buttonBarPositiveButtonStyle"/><attr format="reference" name="buttonBarNegativeButtonStyle"/><attr format="reference" name="buttonBarNeutralButtonStyle"/><attr format="reference" name="autoCompleteTextViewStyle"/><attr format="reference" name="buttonStyle"/><attr format="reference" name="buttonStyleSmall"/><attr format="reference" name="checkboxStyle"/><attr format="reference" name="checkedTextViewStyle"/><attr format="reference" name="editTextStyle"/><attr format="reference" name="radioButtonStyle"/><attr format="reference" name="ratingBarStyle"/><attr format="reference" name="ratingBarStyleIndicator"/><attr format="reference" name="ratingBarStyleSmall"/><attr format="reference" name="seekBarStyle"/><attr format="reference" name="spinnerStyle"/><attr format="reference" name="switchStyle"/><attr format="reference" name="listMenuViewStyle"/></declare-styleable>
     <declare-styleable name="AppDataSearch"/>
+    <declare-styleable name="BottomNavigationView"><attr name="menu"/><attr name="itemIconTint"/><attr name="itemTextColor"/><attr name="itemBackground"/></declare-styleable>
     <declare-styleable name="BottomSheetBehavior_Layout"><attr format="dimension" name="behavior_peekHeight">
             
             <enum name="auto" value="-1"/>
@@ -818,6 +823,7 @@
     <dimen name="design_bottom_navigation_active_text_size">14sp</dimen>
     <dimen name="design_bottom_navigation_height">56dp</dimen>
     <dimen name="design_bottom_navigation_item_max_width">96dp</dimen>
+    <dimen name="design_bottom_navigation_item_min_width">56dp</dimen>
     <dimen name="design_bottom_navigation_margin">8dp</dimen>
     <dimen name="design_bottom_navigation_text_size">12sp</dimen>
     <dimen name="design_bottom_sheet_modal_elevation">16dp</dimen>
@@ -922,6 +928,8 @@
     <item name="progress_circular" type="id"/>
     <item name="progress_horizontal" type="id"/>
     <item name="split_action_bar" type="id"/>
+    <item name="transition_current_scene" type="id"/>
+    <item name="transition_scene_layoutid_cache" type="id"/>
     <item name="up" type="id"/>
     <item name="view_offset_helper" type="id"/>
     <integer name="abc_config_activityDefaultDur">220</integer>
@@ -1054,6 +1062,41 @@
     <string name="common_open_on_phone">Open on phone</string>
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
+    <string name="contenido_1">Esta institución forma parte del Instituto Queretano de la Cultura y las Artes, fundado el 22 de septiembre de 1988 En el Antiguo Claustro de San Agustín. Alrededor del Claustro Alto y Bajo de su Patio Barroco se encuentran las salas permanentes que están divididas en cuatro colecciones: Manierismo, Arte Europeo, Barroco y la Academia de San Carlos. Cuenta con 15 salas de exhibición, en las dos plantas del edificio y una colección permanente compuesta por obras de arte de pintura de los siglos XVII al XIX.
+-Funcionó como cuartel militar, Palacio Federal, hospital y como Casa de Estudios Mayores de la Provincia Agustina de San Nicolás de Tolentino de Michoacán, hasta su restauración.
+-El símbolo más importante de este lugar es el agua, ya que se le contempla como la gracia divina que salva al hombre del pecado y la muerte eterna, es así como se simulan las nubes del cielo, debido a que son portadoras de lluvia y las olas del mar, en la cornisa del claustro alto en forma ondulante.
+-Cada uno de los niveles de arquitectura cuenta con un significado especial, solicita la explicación de cada uno de los detalles que comprenden su arquitectura.</string>
+    <string name="contenido_10">Esta loma emblemática alberga actualmente el Museo Cerro de las Campanas, la Capilla de Maximiliano y el monumento a Benito Juárez. Tiene el nombramiento de Parque Nacional y su nombre se deriva de una piedras en el cerro que al golpearlar recuerdan el tañer de las campanas.
+El Cerro de las Campanas representa el fin de la lucha entre el Imperio y la República al ser el lugar de fusilamiento de Maximiliano de Habsburgo, Miguel Miramón y Tomás Mejía en 1867.
+La Capilla de la Piedad se inauguró en 1901 a petición de Francismo José de Habsburgo, emperador de Austria y hermano de Maximiliano, quien solicitó la construcción de la misma justo en el lugar donde se había llevado a cabo el fusilamiento con el propósito de recordar la muerte de su hermano.</string>
+    <string name="contenido_2">Originalmente el Jardín Guerrero formaba parte del Convento de Santa Clara, hasta el año 1923 donde se convirtió en jardín y posteriormente se contruyó la atractiva fuente, que a lo largo de casi un siglo ha cambiado su fisonomía varias veces.
+Dicha plaza es dedicada al insurgente Vicente Guerrero, de quién podemos admirar un monumento en el centro del mismo, razón además del nombre.
+- Fue inaugurado el 16 de septiembre de 1992, donde se construyó la fuente, obra del arquitecto José Fernández Mendizábal.
+- Se colocó una estatua de bronce de Vicente Guerrero el 27 de septiembre de 1989.</string>
+    <string name="contenido_3">Es una reserva natural en un espacio de 2,500 hectáreas de naturaleza con una gran variedad de especies vegetales.
+Puedes disfrutar de una caminata entre la naturaleza, realizar ciclismo de motaña, carrera campo traviesa o cimplemente entrar en contacto con la natrualeza.
+Anteriormente era un volcán activo, sin embargo ha permanecido dormido por muchos años, sin ningún peligro de que este despierte nuevamente.
+Actividades: Visitas guiadas a las cuevas de La culebra y el Coyote Macho.
+Solicitando tu credencial de deportista puedes realizar ciclismo de montaña, carrera y caminata.</string>
+    <string name="contenido_4">Fue construida en la zona conocida como Cerro de Sangremal, frente al Tempo de la Cruz, en el corazón del centro histórico de la ciudad, con motivo de la celebración del 450 aniversario de la Fundación de Querétaro en 1981, en la cual se construyó un monumento a Fernando de Tapia (Conín), Don Nicolás de San Luis Montañez, Fray Jacobo Daciano y Don Juan Sánchez de Alaníz, quienes ayudaron a la formación de la mítica ciudad de Querétaro.</string>
+    <string name="contenido_5">Construcción virreinal ubicada en el antiguo Convento de San Francisco. Representa un de las construcciones con más significado de México, ya que años atrás fue utilizado como centro de evangelización y promoción cultural.
+Su construcción se llevó a cabo en el siglo XVI y desde 1936 cumple con un importante papel dentro de la hermosa ciudad de Querétaro, ya que ahí se lleva a cabo la promoción, difusión de cultura, arte e historia del estado por medio de diferentes salas con importantes colecciones y piezas arqueológicas, contemporáneas y coloniales.
+- Pertenece desde 1939 al INAH, Institución encargada de la Protección, Difusión, Investigación y Conservación del Patrimonio Cultural.
+- Antiguamente era el convento de San Francisco.
+- Desde el siglo XVI hasta el siglo XIX se han realizado diferentes etapas de construcción, sin embargo la porción que corresponde al museo corresponde al año 1660.</string>
+    <string name="contenido_6">Construido durante la segunda década del siglo XVIII, fue la última prisión del tan memorable emperador Maximiliano y sus generales Tomas Mejía y Miguel Miramón, es así como alberga curiosidades antiguas que ilustran sucesos importantes de aquella época, mostrando puntos de convergencia, lugares estratégicos, la captura, el fusilamiento, el fin del Imperialismo que vivía en México.
+Actualmente forma parte de las instalaciones del Convento de las Capuchinas.
+Dentro se encuentran importantes piezas exhibidas en seis salas, entre ellas predominan:
+- Un retraro al óleo de don Juan Caballero y Osio, y de don Benito Juárez (1900), y otro más referente a la rendición de Maximiliano en el Cerro de las Campanas de 1945, entre otros.
+- El Escudo Nacional Republicano que corresponde al año de 1873.
+- El plano de la ciudad de Querétaro correspondiente al año 1976.</string>
+    <string name="contenido_7">Inaugurado en 1852 con el nombre de Teatro Iturbide. En 1854 se cantó por primera vez el Himno Nacional Mexicano; en 1867 se sentenció a Maximiliano de Habsburgo y el 5 de febrero de 1917 el Congreso Constituyente estableció la Constitución Política de los Estados Unidos Mexicanos.
+Recibió su nombre actual en 1992 y hoy en día es el recinto oficial de la Orquesta Filarmónica del Estado de Querétaro y sede de eventos culturales.</string>
+    <string name="contenido_8">Primer panteón de la ciudad, actualmente descanso de personajes célebres y forjados de la historia queretana, como Doña Josefa Ortiz de Domínguez, su esposo Don Miguel Domínguez, Epigmenio Gonzáles y Don Ignacio Peréz.
+Este recinto formó parte del huerto del Convento de la Cruz antes de la secularización.
+Se inauguró como lo conocemos hoy en 1988. Aquí también descansan los restos de Ignacio Pérez "l correo de la libertad";Epigmenio Gonzalés, conspirador independentista; Juan Antonio de Urrutia y Arana "el Marqués", creador del Acueducto; el escritor Valentín Frías; Jose María Arteaga, mártir de la Reforma; Ignacio Mariano de las Casas, arquitecto del templo de Santa Rosa de Viterbo; Carlos Septién, periodista del siglo XX; Octavio Mondragón Guerra, quien fue gobernador del estado y Josefa Vergara Y Hernández, benefactora de la ciudad.</string>
+    <string name="contenido_9">Construida en el siglo XVIII en un sitio barroco tallado en cantera, toma su nombre del regidor de la ciudad don Tomás López de Ecala quien encargó su construcción para que ésta fuera su residencia.
+Destacan la estupenda arquería de la planta baja y los balcones de la parte superior, cuyos barandales de hierro forjado semejan fina caligrafía. En 1916 se instaló en esta casa la Secretaría de Comunicaciones; también fungió como centro cultural y biblioteca.</string>
     <string name="create_calendar_message">Allow Ad to create a calendar event?</string>
     <string name="create_calendar_title">Create calendar event</string>
     <string name="debug_menu_ad_information">Ad Information</string>
@@ -2400,7 +2443,8 @@
         <item name="android:paddingRight">@dimen/abc_action_bar_overflow_padding_end_material</item>
     </style>
     <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
-        <item name="android:windowBackground">@color/purple</item>
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+        <item name="android:statusBarColor">#546E7A</item>
     </style>
     <style name="TextAppearance.AppCompat" parent="Base.TextAppearance.AppCompat"/>
     <style name="TextAppearance.AppCompat.Body1" parent="Base.TextAppearance.AppCompat.Body1"/>
@@ -2649,6 +2693,11 @@
         <item name="mediaRouteControllerPrimaryTextStyle">@style/Widget.MediaRouter.ControllerText.Primary.Light</item>
         <item name="mediaRouteControllerSecondaryTextStyle">@style/Widget.MediaRouter.ControllerText.Secondary.Light</item>
     </style>
+    <style name="ThemeAS" parent="Theme.AppCompat.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">#880E4F</item>
+    </style>
     <style name="ThemeOverlay.AppCompat" parent="Base.ThemeOverlay.AppCompat"/>
     <style name="ThemeOverlay.AppCompat.ActionBar" parent="Base.ThemeOverlay.AppCompat.ActionBar"/>
     <style name="ThemeOverlay.AppCompat.Dark" parent="Base.ThemeOverlay.AppCompat.Dark"/>
@@ -2659,6 +2708,9 @@
     <style name="ThemeOverlay.MyNoTitleActivity" parent="AppTheme">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
+    </style>
+    <style name="ThemeSplash" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:statusBarColor">@color/blanco</item>
     </style>
     <style name="UnityThemeSelector" parent="android:Theme.Light.NoTitleBar.Fullscreen">
     </style>
@@ -2798,6 +2850,9 @@
         <item name="android:orientation">vertical</item>
     </style>
     <style name="Widget.Design.AppBarLayout" parent="Base.Widget.Design.AppBarLayout">
+    </style>
+    <style name="Widget.Design.BottomNavigationView" parent="">
+        <item name="itemBackground">?attr/selectableItemBackgroundBorderless</item>
     </style>
     <style name="Widget.Design.BottomSheet.Modal" parent="android:Widget">
         <item name="android:background">?android:attr/colorBackground</item>

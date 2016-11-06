@@ -29,8 +29,7 @@
             <!-- Card Perfil -->
             <android.support.v7.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="90dp">
+                android:layout_height="wrap_content">
 
                 <LinearLayout
                     style="@style/Widget.CardContent"
@@ -38,75 +37,85 @@
                     android:layout_height="wrap_content">
                     <!--Etiqueta Perfil -->
                     <TextView
-                        android:id="@+id/descripcion_cardView"
+
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Descripción"
+                        android:text="Historia"
                         android:textAppearance="@style/TextAppearance.AppCompat.Title" />
                     <!--Texto de ejemplo-->
                     <TextView
+                        android:id="@+id/descripcion_cardView"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="" />
+                        android:layout_height="wrap_content" />
 
                 </LinearLayout>
 
             </android.support.v7.widget.CardView>
 
-            <!-- Card Amigos -->
             <android.support.v7.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/card_margin"
-                android:layout_marginLeft="@dimen/card_margin"
-                android:layout_marginRight="@dimen/card_margin">
+                android:layout_height="wrap_content">
 
                 <LinearLayout
                     style="@style/Widget.CardContent"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
-
-                    <!-- Etiqueta Amigos -->
+                    <!--Etiqueta Perfil -->
                     <TextView
+
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Texto 2"
+                        android:text="Galeria"
                         android:textAppearance="@style/TextAppearance.AppCompat.Title" />
-                    <!-- Texto de ejemplo -->
-                    <TextView
+                    <!--Texto de ejemplo-->
+                    <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="texto" />
+                        android:orientation="horizontal"
+                        android:weightSum="1">
 
-                </LinearLayout>
+                        <ImageView
+                            android:id="@+id/imv1"
+                            android:layout_width="50dp"
+                            android:layout_height="160dp"
+                            android:layout_weight=".5"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/museo_arte"/>
 
-            </android.support.v7.widget.CardView>
+                        <ImageView
+                            android:id="@+id/imv2"
+                            android:layout_width="50dp"
+                            android:layout_height="160dp"
+                            android:layout_weight=".5"
+                            android:background="@drawable/museo_arte1"/>
 
-            <!-- Card Intereses -->
-            <android.support.v7.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/card_margin"
-                android:layout_marginLeft="@dimen/card_margin"
-                android:layout_marginRight="@dimen/card_margin">
+                    </LinearLayout>
 
-                <LinearLayout
-                    style="@style/Widget.CardContent"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-                    <!-- Etiqueta Intereses -->
-                    <TextView
+                    <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Elemento 3"
-                        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+                        android:orientation="horizontal"
+                        android:gravity="center"
+                        android:weightSum="1">
 
-                    <!-- Texto de ejemplo -->
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="elemento" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight=".5"
+                            android:layout_marginRight="10dp"
+                            android:textAlignment="center"
+                            android:gravity="center"
+                            android:text="Actual"/>
+
+                        <TextView
+                            android:gravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:layout_weight=".5"
+                            android:text="Antigua"/>
+
+                    </LinearLayout>
 
                 </LinearLayout>
 
@@ -167,7 +176,7 @@
         android:layout_width="@dimen/size_fab"
         android:layout_height="@dimen/size_fab"
         android:layout_margin="@dimen/fab_margin"
-        android:src="@drawable/arrow_right"
+        android:src="@drawable/binoculars"
         app:borderWidth="0dp"
         app:elevation="8dp"
         app:layout_anchor="@id/app_bar"

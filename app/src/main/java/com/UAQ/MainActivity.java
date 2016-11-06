@@ -78,22 +78,21 @@ public class MainActivity extends AppCompatActivity {
                 //Check to see which item was being clicked and perform appropriate action
                 switch (item.getItemId()) {
 
-                    case R.id.cafe:
-                        startActivity(new Intent(getApplicationContext(), ItemsGrid.class));
+                    case R.id.twitter:
+                        //
                         return true;
                     // For rest of the options we just show a toast on click
-                    case R.id.alimentos:
+                    case R.id.places:
+                        startActivity(new Intent(getApplicationContext(), ItemsGrid.class));
+
+                        return true;
+                    case R.id.mapa:
                         startActivity(new Intent(getApplicationContext(), MapsActivity.class));
                         return true;
-                    case R.id.pedidos:
-                        //Toast.makeText(getApplicationContext(),"Pedidos",Toast.LENGTH_SHORT).show();
-                        return true;
-                    case R.id.rutas:
+                    case R.id.reporte:
                         //startActivity(new Intent(getApplicationContext(), ActivityMaps.class));
                         return true;
-                    case R.id.places:
-                        //startActivity(new Intent(getApplicationContext(), ActivityPlaces.class));
-                        return true;
+
                     default:
                         Toast.makeText(getApplicationContext(), "Somethings Wrong", Toast.LENGTH_SHORT).show();
                         return true;

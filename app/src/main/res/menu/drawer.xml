@@ -4,44 +4,39 @@
     <group android:checkableBehavior="single">
 
         <item
-            android:id="@+id/cafe"
+            android:id="@+id/twitter"
             android:checked="true"
-            android:icon="@drawable/arrow_right"
-            android:title="Bebidas" />
-
-        <item
-            android:id="@+id/alimentos"
-            android:checked="false"
-            android:icon="@drawable/arrow_right"
-            android:title="Alimentos" />
-
-        <item
-            android:id="@+id/pedidos"
-            android:checked="false"
-            android:icon="@drawable/arrow_right"
-            android:title="Pedidos" />
-
-        <item
-            android:id="@+id/rutas"
-            android:checked="false"
-            android:icon="@drawable/arrow_right"
-            android:title="Rutas" />
+            android:icon="@drawable/twitter"
+            android:title="Que pasa en Qro" />
 
         <item
             android:id="@+id/places"
             android:checked="false"
-            android:icon="@drawable/arrow_right"
-            android:title="Eventos / Lugares de Interés" />
+            android:icon="@drawable/castle"
+            android:title="Sitios de Interes" />
+
+        <item
+            android:id="@+id/mapa"
+            android:checked="false"
+            android:icon="@drawable/google_maps"
+            android:title="Mapa RA" />
+
+        <item
+            android:id="@+id/reporte"
+            android:checked="false"
+            android:icon="@drawable/shield"
+            android:title="Reporte Turistico" />
+
 
     </group>
     <item android:title="Sub items">
         <menu>
             <item
-                android:icon="@drawable/ic_cast_light"
-                android:title="Sub item 1" />
+                android:icon="@drawable/help_circle"
+                android:title="Ayuda" />
             <item
-                android:icon="@drawable/arrow_right"
-                android:title="Sub item 2" />
+                android:icon="@drawable/settings"
+                android:title="Ajustes" />
         </menu>
     </item>
 </menu>

@@ -66,7 +66,6 @@ public class DetailActivity extends AppCompatActivity {
 
         Intent i = getIntent();
         String name = i.getExtras().getString("EXTRA_NAME");
-        int idDrawable = i.getExtras().getInt("EXTRA_DRAWABLE");
         String descripcion = i.getExtras().getString("EXTRA_DESCRIPCION");
 
         CollapsingToolbarLayout collapser =
@@ -92,7 +91,12 @@ public class DetailActivity extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Toast.makeText(getApplicationContext(), "Floating Action button", Toast.LENGTH_SHORT).show();
+                        Intent intent = new Intent(getApplicationContext(), com.UAQ.UnityPlayerActivity.class);
+                        intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
+                        Bundle extras = getIntent().getExtras();
+                        if (extras != null)
+                            intent.putExtras(extras);
+                        startActivity(intent);
                     }
                 }
         );

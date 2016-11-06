@@ -9,32 +9,71 @@
 
     <string name="titulo_1">Museo del Arte</string>
     <string name="descripcion_1">Instituto Queretano de la Cultura y las Artes</string>
+    <string name="contenido_1">Esta institución forma parte del Instituto Queretano de la Cultura y las Artes, fundado el 22 de septiembre de 1988 En el Antiguo Claustro de San Agustín. Alrededor del Claustro Alto y Bajo de su Patio Barroco se encuentran las salas permanentes que están divididas en cuatro colecciones: Manierismo, Arte Europeo, Barroco y la Academia de San Carlos. Cuenta con 15 salas de exhibición, en las dos plantas del edificio y una colección permanente compuesta por obras de arte de pintura de los siglos XVII al XIX.
+-Funcionó como cuartel militar, Palacio Federal, hospital y como Casa de Estudios Mayores de la Provincia Agustina de San Nicolás de Tolentino de Michoacán, hasta su restauración.
+-El símbolo más importante de este lugar es el agua, ya que se le contempla como la gracia divina que salva al hombre del pecado y la muerte eterna, es así como se simulan las nubes del cielo, debido a que son portadoras de lluvia y las olas del mar, en la cornisa del claustro alto en forma ondulante.
+-Cada uno de los niveles de arquitectura cuenta con un significado especial, solicita la explicación de cada uno de los detalles que comprenden su arquitectura.</string>
 
     <string name="titulo_2">Jardín Guerrero</string>
     <string name="descripcion_2">Dicha plaza es dedicada al insurgente Vicente Guerrero</string>
+    <string name="contenido_2">Originalmente el Jardín Guerrero formaba parte del Convento de Santa Clara, hasta el año 1923 donde se convirtió en jardín y posteriormente se contruyó la atractiva fuente, que a lo largo de casi un siglo ha cambiado su fisonomía varias veces.
+Dicha plaza es dedicada al insurgente Vicente Guerrero, de quién podemos admirar un monumento en el centro del mismo, razón además del nombre.
+- Fue inaugurado el 16 de septiembre de 1992, donde se construyó la fuente, obra del arquitecto José Fernández Mendizábal.
+- Se colocó una estatua de bronce de Vicente Guerrero el 27 de septiembre de 1989.</string>
 
     <string name="titulo_3">Parque Nacional el Cimatario</string>
     <string name="descripcion_3">Reserva natural en un espacio de 2,500 hectáreas</string>
+    <string name="contenido_3">Es una reserva natural en un espacio de 2,500 hectáreas de naturaleza con una gran variedad de especies vegetales.
+Puedes disfrutar de una caminata entre la naturaleza, realizar ciclismo de motaña, carrera campo traviesa o cimplemente entrar en contacto con la natrualeza.
+Anteriormente era un volcán activo, sin embargo ha permanecido dormido por muchos años, sin ningún peligro de que este despierte nuevamente.
+Actividades: Visitas guiadas a las cuevas de La culebra y el Coyote Macho.
+Solicitando tu credencial de deportista puedes realizar ciclismo de montaña, carrera y caminata.</string>
 
     <string name="titulo_4">Plaza de los Fundadores</string>
     <string name="descripcion_4">Zona conocida como Cerro de Sangremal, frente al Tempo de la Cruz</string>
+    <string name="contenido_4">Fue construida en la zona conocida como Cerro de Sangremal, frente al Tempo de la Cruz, en el corazón del centro histórico de la ciudad, con motivo de la celebración del 450 aniversario de la Fundación de Querétaro en 1981, en la cual se construyó un monumento a Fernando de Tapia (Conín), Don Nicolás de San Luis Montañez, Fray Jacobo Daciano y Don Juan Sánchez de Alaníz, quienes ayudaron a la formación de la mítica ciudad de Querétaro.</string>
 
     <string name="titulo_5">Museo Regional</string>
     <string name="descripcion_5">Construcción virreinal ubicada en el antiguo Convento de San Francisco</string>
+    <string name="contenido_5">Construcción virreinal ubicada en el antiguo Convento de San Francisco. Representa un de las construcciones con más significado de México, ya que años atrás fue utilizado como centro de evangelización y promoción cultural.
+Su construcción se llevó a cabo en el siglo XVI y desde 1936 cumple con un importante papel dentro de la hermosa ciudad de Querétaro, ya que ahí se lleva a cabo la promoción, difusión de cultura, arte e historia del estado por medio de diferentes salas con importantes colecciones y piezas arqueológicas, contemporáneas y coloniales.
+- Pertenece desde 1939 al INAH, Institución encargada de la Protección, Difusión, Investigación y Conservación del Patrimonio Cultural.
+- Antiguamente era el convento de San Francisco.
+- Desde el siglo XVI hasta el siglo XIX se han realizado diferentes etapas de construcción, sin embargo la porción que corresponde al museo corresponde al año 1660.</string>
 
     <string name="titulo_6">Museo de la Restauración</string>
     <string name="descripcion_6">Actualmente forma parte de las instalaciones del Convento de las Capuchinas</string>
+    <string name="contenido_6">Construido durante la segunda década del siglo XVIII, fue la última prisión del tan memorable emperador Maximiliano y sus generales Tomas Mejía y Miguel Miramón, es así como alberga curiosidades antiguas que ilustran sucesos importantes de aquella época, mostrando puntos de convergencia, lugares estratégicos, la captura, el fusilamiento, el fin del Imperialismo que vivía en México.
+Actualmente forma parte de las instalaciones del Convento de las Capuchinas.
+Dentro se encuentran importantes piezas exhibidas en seis salas, entre ellas predominan:
+- Un retraro al óleo de don Juan Caballero y Osio, y de don Benito Juárez (1900), y otro más referente a la rendición de Maximiliano en el Cerro de las Campanas de 1945, entre otros.
+- El Escudo Nacional Republicano que corresponde al año de 1873.
+- El plano de la ciudad de Querétaro correspondiente al año 1976.</string>
 
     <string name="titulo_7">Teatro de la República</string>
     <string name="descripcion_7">Recinto oficial de la Orquesta Filarmónica del Estado de Querétaro y sede de eventos culturales</string>
+    <string name="contenido_7">Inaugurado en 1852 con el nombre de Teatro Iturbide. En 1854 se cantó por primera vez el Himno Nacional Mexicano; en 1867 se sentenció a Maximiliano de Habsburgo y el 5 de febrero de 1917 el Congreso Constituyente estableció la Constitución Política de los Estados Unidos Mexicanos.
+Recibió su nombre actual en 1992 y hoy en día es el recinto oficial de la Orquesta Filarmónica del Estado de Querétaro y sede de eventos culturales.</string>
 
     <string name="titulo_8">Panteón de los Queretanos Ilustres</string>
     <string name="descripcion_8">Primer panteón de la ciudad, actualmente descanso de personajes célebres y forjados de la historia queretana</string>
+    <string name="contenido_8">Primer panteón de la ciudad, actualmente descanso de personajes célebres y forjados de la historia queretana, como Doña Josefa Ortiz de Domínguez, su esposo Don Miguel Domínguez, Epigmenio Gonzáles y Don Ignacio Peréz.
+Este recinto formó parte del huerto del Convento de la Cruz antes de la secularización.
+Se inauguró como lo conocemos hoy en 1988. Aquí también descansan los restos de Ignacio Pérez "l correo de la libertad";Epigmenio Gonzalés, conspirador independentista; Juan Antonio de Urrutia y Arana "el Marqués", creador del Acueducto; el escritor Valentín Frías; Jose María Arteaga, mártir de la Reforma; Ignacio Mariano de las Casas, arquitecto del templo de Santa Rosa de Viterbo; Carlos Septién, periodista del siglo XX; Octavio Mondragón Guerra, quien fue gobernador del estado y Josefa Vergara Y Hernández, benefactora de la ciudad.</string>
 
     <string name="titulo_9">Cerro de las Campanas.</string>
     <string name="descripcion_9">Esta loma emblemática alberga actualmente el Museo Cerro de las Campanas</string>
+    <string name="contenido_9">Construida en el siglo XVIII en un sitio barroco tallado en cantera, toma su nombre del regidor de la ciudad don Tomás López de Ecala quien encargó su construcción para que ésta fuera su residencia.
+Destacan la estupenda arquería de la planta baja y los balcones de la parte superior, cuyos barandales de hierro forjado semejan fina caligrafía. En 1916 se instaló en esta casa la Secretaría de Comunicaciones; también fungió como centro cultural y biblioteca.</string>
 
     <string name="titulo_10">Casa de Ecala</string>
     <string name="descripcion_10">Toma su nombre del regidor de la ciudad don Tomás López de Ecala en el siglo XVIII</string>
+    <string name="contenido_10">Esta loma emblemática alberga actualmente el Museo Cerro de las Campanas, la Capilla de Maximiliano y el monumento a Benito Juárez. Tiene el nombramiento de Parque Nacional y su nombre se deriva de una piedras en el cerro que al golpearlar recuerdan el tañer de las campanas.
+El Cerro de las Campanas representa el fin de la lucha entre el Imperio y la República al ser el lugar de fusilamiento de Maximiliano de Habsburgo, Miguel Miramón y Tomás Mejía en 1867.
+La Capilla de la Piedad se inauguró en 1901 a petición de Francismo José de Habsburgo, emperador de Austria y hermano de Maximiliano, quien solicitó la construcción de la misma justo en el lugar donde se había llevado a cabo el fusilamiento con el propósito de recordar la muerte de su hermano.</string>
+
+
+
+
     <string name="title_activity_maps">Map</string>
 </resources>

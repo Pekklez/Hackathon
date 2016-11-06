@@ -1,7 +1,10 @@
 package com.UAQ;
 
+import android.app.Notification;
 import android.content.Intent;
 import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
@@ -92,13 +95,14 @@ public class ItemsGrid  extends AppCompatActivity{
                 imageView1.buildDrawingCache();
                 Bitmap image= imageView1.getDrawingCache();
 
+
                 Bundle extras = new Bundle();
                 extras.putParcelable("imagebitmap", image);
+
                 extras.putParcelable("from_position", fromPosition);
                 myIntent.putExtras(extras);
 
-
-                myIntent.putExtra("EXTRA_DESCRIPCION", descripcion1.getText());  // MODIFICAR DESCRIPCION
+                myIntent.putExtra("EXTRA_DESCRIPCION",getResources().getString(R.string.contenido_1));  // MODIFICAR DESCRIPCION
                 v.getContext().startActivity(myIntent);
             }
         });
@@ -120,7 +124,7 @@ public class ItemsGrid  extends AppCompatActivity{
                 myIntent.putExtras(extras);
 
 
-                myIntent.putExtra("EXTRA_DESCRIPCION", descripcion2.getText());  // MODIFICAR DESCRIPCION
+                myIntent.putExtra("EXTRA_DESCRIPCION",getResources().getString(R.string.contenido_2));  // MODIFICAR DESCRIPCION
                 v.getContext().startActivity(myIntent);
             }
         });
@@ -141,7 +145,7 @@ public class ItemsGrid  extends AppCompatActivity{
                 myIntent.putExtras(extras);
 
 
-                myIntent.putExtra("EXTRA_DESCRIPCION", descripcion3.getText());  // MODIFICAR DESCRIPCION
+                myIntent.putExtra("EXTRA_DESCRIPCION",getResources().getString(R.string.contenido_3));  // MODIFICAR DESCRIPCION
                 v.getContext().startActivity(myIntent);
 
             }
@@ -164,7 +168,7 @@ public class ItemsGrid  extends AppCompatActivity{
                 myIntent.putExtras(extras);
 
 
-                myIntent.putExtra("EXTRA_DESCRIPCION", descripcion4.getText());  // MODIFICAR DESCRIPCION
+                myIntent.putExtra("EXTRA_DESCRIPCION",getResources().getString(R.string.contenido_4));  // MODIFICAR DESCRIPCION
                 v.getContext().startActivity(myIntent);
             }
         });
@@ -186,7 +190,7 @@ public class ItemsGrid  extends AppCompatActivity{
                 myIntent.putExtras(extras);
 
 
-                myIntent.putExtra("EXTRA_DESCRIPCION", descripcion5.getText());  // MODIFICAR DESCRIPCION
+                myIntent.putExtra("EXTRA_DESCRIPCION",getResources().getString(R.string.contenido_5));  // MODIFICAR DESCRIPCION
                 v.getContext().startActivity(myIntent);
             }
         });
@@ -208,7 +212,7 @@ public class ItemsGrid  extends AppCompatActivity{
                 myIntent.putExtras(extras);
 
 
-                myIntent.putExtra("EXTRA_DESCRIPCION", descripcion6.getText());  // MODIFICAR DESCRIPCION
+                myIntent.putExtra("EXTRA_DESCRIPCION",getResources().getString(R.string.contenido_6));  // MODIFICAR DESCRIPCION
                 v.getContext().startActivity(myIntent);
             }
         });
@@ -230,7 +234,7 @@ public class ItemsGrid  extends AppCompatActivity{
                 myIntent.putExtras(extras);
 
 
-                myIntent.putExtra("EXTRA_DESCRIPCION", descripcion7.getText());  // MODIFICAR DESCRIPCION
+                myIntent.putExtra("EXTRA_DESCRIPCION",getResources().getString(R.string.contenido_7));  // MODIFICAR DESCRIPCION
                 v.getContext().startActivity(myIntent);
             }
         });
@@ -252,7 +256,7 @@ public class ItemsGrid  extends AppCompatActivity{
                 myIntent.putExtras(extras);
 
 
-                myIntent.putExtra("EXTRA_DESCRIPCION", descripcion8.getText());  // MODIFICAR DESCRIPCION
+                myIntent.putExtra("EXTRA_DESCRIPCION",getResources().getString(R.string.contenido_8));  // MODIFICAR DESCRIPCION
                 v.getContext().startActivity(myIntent);
             }
         });
@@ -274,7 +278,7 @@ public class ItemsGrid  extends AppCompatActivity{
                 myIntent.putExtras(extras);
 
 
-                myIntent.putExtra("EXTRA_DESCRIPCION", descripcion9.getText());  // MODIFICAR DESCRIPCION
+                myIntent.putExtra("EXTRA_DESCRIPCION",getResources().getString(R.string.contenido_9));  // MODIFICAR DESCRIPCION
                 v.getContext().startActivity(myIntent);
             }
         });
@@ -295,7 +299,7 @@ public class ItemsGrid  extends AppCompatActivity{
                 myIntent.putExtras(extras);
 
 
-                myIntent.putExtra("EXTRA_DESCRIPCION", descripcion10.getText());  // MODIFICAR DESCRIPCION
+                myIntent.putExtra("EXTRA_DESCRIPCION",getResources().getString(R.string.contenido_10));  // MODIFICAR DESCRIPCION
                 v.getContext().startActivity(myIntent);
 
             }

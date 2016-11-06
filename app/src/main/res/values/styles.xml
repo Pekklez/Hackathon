@@ -10,14 +10,26 @@
         <item name="windowNoTitle">true</item>
     </style>
 
+    <style name="ThemeAS" parent="Theme.AppCompat.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">#880E4F</item>
+    </style>
+
+    <style name="ThemeSplash" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:statusBarColor">@color/blanco</item>
+    </style>
+
     <style name="ThemeOverlay.MyNoTitleActivity" parent="AppTheme">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
 
 
+    <!-- Splash Screen -->
     <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
-        <item name="android:windowBackground">@color/purple</item>
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+        <item name="android:statusBarColor">#546E7A</item>
     </style>
 
     <style name="CustomActionBar" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
@@ -26,8 +38,6 @@
         <item name="windowActionBarOverlay">true</item>
 
     </style>
-
-
 
     <style name="Widget.CardContent" parent="android:Widget">
         <item name="android:paddingLeft">16dp</item>
