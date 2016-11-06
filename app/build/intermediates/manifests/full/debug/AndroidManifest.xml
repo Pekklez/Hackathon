@@ -132,7 +132,8 @@
             android:theme="@style/AppTheme" />
         <activity
             android:name="com.UAQ.MapsActivity"
-            android:label="@string/title_activity_maps" />
+            android:label="@string/title_activity_maps"
+            android:theme="@style/AppTheme" />
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"

@@ -377,9 +377,11 @@ ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\mai
 	android:name
 		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:67:15-45
 activity#com.UAQ.MapsActivity
-ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:68:5-106
+ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:68:5-138
 	android:label
 		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:68:51-94
+	android:theme
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:68:95-126
 	android:name
 		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:68:15-50
 meta-data#com.google.android.geo.API_KEY

@@ -1,5 +1,8 @@
 package com.UAQ;
 
+import android.location.Criteria;
+import android.location.Location;
+import android.location.LocationManager;
 import android.nfc.Tag;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
@@ -9,7 +12,10 @@ import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.model.BitmapDescriptorFactory;
+import com.google.android.gms.maps.model.CameraPosition;
 import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.LatLngBounds;
 import com.google.android.gms.maps.model.MarkerOptions;
 
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback {
@@ -24,6 +30,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
+
+
     }
 
 
@@ -42,7 +50,14 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
         mMap.setMyLocationEnabled(true);
 
-        LatLng myLocation = new LatLng(mMap.getMyLocation().getLatitude(),mMap.getMyLocation().getLongitude());
+        LocationManager service = (LocationManager)
+
+                getSystemService(LOCATION_SERVICE);
+        Criteria criteria = new Criteria();
+        String provider = service.getBestProvider(criteria, false);
+        Location location = service.getLastKnownLocation(provider);
+        LatLng myLocation = new LatLng(location.getLatitude(),location.getLongitude());
+        myLocation = new LatLng(20.592973, -100.391549);
 
         // Add a marker in Sydney and move the camera
         LatLng UNO = new LatLng(20.5919162, -100.3973391);
@@ -55,17 +70,29 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         LatLng OCHO = new LatLng(20.592489, -100.3824324);
         LatLng NUEVE = new LatLng(20.5932645, -100.3917004);
         LatLng DIEZ = new LatLng(20.5933286, -100.4121403);
-        mMap.addMarker(new MarkerOptions().position(UNO).title("Jardin Guerrero"));
-        mMap.addMarker(new MarkerOptions().position(DOS).title("Parque Nacional el Cimatario"));
-        mMap.addMarker(new MarkerOptions().position(TRES).title("Plaza de los Fundadores"));
-        mMap.addMarker(new MarkerOptions().position(CUATRO).title("Museo Regional"));
-        mMap.addMarker(new MarkerOptions().position(CINCO).title("Museo de la Restauracion"));
-        mMap.addMarker(new MarkerOptions().position(SEIS).title("Museo del Arte"));
-        mMap.addMarker(new MarkerOptions().position(SIETE).title("Teatro de la Republica"));
-        mMap.addMarker(new MarkerOptions().position(OCHO).title("Panteon de los Queretanos Ilustres"));
-        mMap.addMarker(new MarkerOptions().position(NUEVE).title("Casa de Ecala"));
-        mMap.addMarker(new MarkerOptions().position(DIEZ).title("Cerro de las Campanas"));
+        mMap.addMarker(new MarkerOptions().position(UNO).title("Jardin Guerrero").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ROSE)));
+        mMap.addMarker(new MarkerOptions().position(DOS).title("Parque Nacional el Cimatario").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ROSE)));
+        mMap.addMarker(new MarkerOptions().position(TRES).title("Plaza de los Fundadores").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ROSE)));
+        mMap.addMarker(new MarkerOptions().position(CUATRO).title("Museo Regional").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ROSE)));
+        mMap.addMarker(new MarkerOptions().position(CINCO).title("Museo de la Restauracion").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ROSE)));
+        mMap.addMarker(new MarkerOptions().position(SEIS).title("Museo del Arte").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ROSE)));
+        mMap.addMarker(new MarkerOptions().position(SIETE).title("Teatro de la Republica").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ROSE)));
+        mMap.addMarker(new MarkerOptions().position(OCHO).title("Panteon de los Queretanos Ilustres").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ROSE)));
+        mMap.addMarker(new MarkerOptions().position(NUEVE).title("Casa de Ecala").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ROSE)));
+        mMap.addMarker(new MarkerOptions().position(DIEZ).title("Cerro de las Campanas").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ROSE)));
 
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(myLocation));
+        //mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(myLocation, 15));
+
+        CameraPosition cameraPosition = new CameraPosition.Builder()
+                .target(myLocation) // Sets the center of the map to
+                .zoom(22)                   // Sets the zoom
+                .bearing(90) // Sets the orientation of the camera to east
+                .tilt(30)    // Sets the tilt of the camera to 30 degrees
+                .build();    // Creates a CameraPosition from the builder
+        mMap.animateCamera(CameraUpdateFactory.newCameraPosition(
+                cameraPosition));
+
+
+
     }
 }
