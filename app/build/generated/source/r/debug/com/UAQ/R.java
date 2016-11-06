@@ -2322,7 +2322,8 @@ containing a value of this type.
         public static final int select_dialog_item_material=0x7f030035;
         public static final int select_dialog_multichoice_material=0x7f030036;
         public static final int select_dialog_singlechoice_material=0x7f030037;
-        public static final int support_simple_spinner_dropdown_item=0x7f030038;
+        public static final int splash=0x7f030038;
+        public static final int support_simple_spinner_dropdown_item=0x7f030039;
     }
     public static final class string {
         public static final int abc_action_bar_home_description=0x7f050000;
@@ -2385,6 +2386,7 @@ containing a value of this type.
         public static final int messenger_send_button_text=0x7f050024;
         public static final int search_menu_title=0x7f050025;
         public static final int status_bar_notification_info_overflow=0x7f050026;
+        public static final int title_activity_splash_screen=0x7f05003c;
     }
     public static final class style {
         public static final int AlertDialog_AppCompat=0x7f07009a;

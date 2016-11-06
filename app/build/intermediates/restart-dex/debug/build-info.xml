@@ -5,32 +5,32 @@
     density="xxhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="333183884707856"
-    token="-5010845586418069758"
-    verifier="FULL_BUILD_REQUESTED" >
+    timestamp="451508483583888"
+    token="3024569554074017923"
+    verifier="MANIFEST_FILE_CHANGE" >
 
     <task
         name="javac"
-        duration="2045" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="298" />
+        duration="0" />
     <task
         name="verifier"
-        duration="41" />
+        duration="0" />
 
     <artifact
-        location="C:\Users\DIPFI\Desktop\Hackathon\app\build\outputs\apk\app-debug.apk"
+        location="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\outputs\apk\app-debug.apk"
         type="MAIN" />
 
     <build
-        timestamp="333183884707856"
-        verifier="FULL_BUILD_REQUESTED" >
+        timestamp="451508483583888"
+        verifier="MANIFEST_FILE_CHANGE" >
         <artifact
-            location="C:\Users\DIPFI\Desktop\Hackathon\app\build\outputs\apk\app-debug.apk"
+            location="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
 
