@@ -11,4 +11,17 @@
     <item name="darkgreen" type="color">#FF669900</item>
     <item name="darkorange" type="color">#FFFF8800</item>
     <item name="darkred" type="color">#FFCC0000</item>
+    <item name="transparent" type="color">#00000000</item>
+
+    <color name="PrimaryColor">#9a5d4037</color>
+    <color name="PrimaryDarkColor">#971976d2</color>
+
+    <color name="window_background">#EEEEEE</color>
+    <color name="accentColor">#FF9E9E9E</color>
+
+    <color name="colorBackground">#FF9E9E9E</color>
+
+    <color name="drawer_item">#FF9E9E9E</color>
+
+
 </resources>

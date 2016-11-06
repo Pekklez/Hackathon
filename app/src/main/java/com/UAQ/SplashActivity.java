@@ -12,7 +12,7 @@ public class SplashActivity extends Activity {
         // TODO Auto-generated method stub
         super.onCreate(savedInstanceState);
 
-        Intent intent = new Intent(this, LogginActivity.class);
+        Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
         finish();
     }
