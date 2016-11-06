@@ -193,6 +193,7 @@ public class MainActivity extends AppCompatActivity {
             return mIcon11;
         }
 
+
         protected void onPostExecute(Bitmap result) {
 
             int width = result.getWidth();
