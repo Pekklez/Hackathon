@@ -92,13 +92,13 @@ public class ItemsGrid  extends AppCompatActivity{
 
                 LatLng fromPosition = new LatLng(20.5919162,-100.3973391);           //  MODIFICAR LAT LNG
 
+
                 imageView1.buildDrawingCache();
                 Bitmap image= imageView1.getDrawingCache();
 
 
                 Bundle extras = new Bundle();
                 extras.putParcelable("imagebitmap", image);
-
                 extras.putParcelable("from_position", fromPosition);
                 myIntent.putExtras(extras);
 

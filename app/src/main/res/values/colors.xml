@@ -22,7 +22,7 @@
     <color name="PrimaryColor">#00BCD4</color>
     <color name="PrimaryDarkColor">#0097A7</color>
 
-
+    <color name="semitransparent">#33000000</color>
 
     <color name="window_background">#EEEEEE</color>
     <color name="accentColor">#FF4081</color>

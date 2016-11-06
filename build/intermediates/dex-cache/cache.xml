@@ -12,24 +12,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-awareness\9.8.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="a2537b11ae24b42172d34e2a613fc0b903c56158">
-        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-awareness-9.8.0_48798856b5ccfee8d6885afcc34bc57c8c1b3213\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\9.8.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="c81df6bd515398ebe45089b0b16c55752a131f6a">
-        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-nearby-9.8.0_75e68ae7d34e69b0c539b8a4e359f0f988fa7981\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.8.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -39,30 +21,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Adolfo\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.6.0\a7537446a030da8eb0da4c71424d16c2589f6c4a\glide-3.6.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="a7537446a030da8eb0da4c71424d16c2589f6c4a">
-        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\glide-3.6.0_71bcaff298af0e001df8f52755c1bfaf859a874b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\9.8.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="0b53c4b90654b67ee3892a8e2e7b819c083ab7a6">
         <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-drive-9.8.0_11d5e1f4a0a77bcf1fd38d3803f9d4894693c3ba\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\9.8.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="3daa7a9c9009fd386872a84c177a76979bdcafd6">
-        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-plus-9.8.0_988c61515226b9cf974cdc2d750c07500ca2ea2f\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -84,42 +48,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\9.8.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="16afe57c1d7f8165d107c7806ce7b0c71de87159">
-        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-9.8.0_6a0640abda35d17b0f4b3bd7dad4ab2905d44696\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.google.firebase\firebase-config\9.8.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="289cad663c288ce965463cb9ece8b35cc7de0fac">
-        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-config-9.8.0_4d95420d02e2d92f5d2a5a0fd3be129dd30bb9c6\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\9.8.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="e3234cd25e23069abd48ecd2117bc0e8011bf45a">
-        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appindexing-9.8.0_ec7d82f56e777dfc6f916125b20dd5190254e643\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
-        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_793cdef4022272b1bcff25df14c76dc42017ea6f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\libs\internal_impl-25.0.0.jar"
         jumboMode="true"
         optimize="true"
@@ -135,15 +63,6 @@
         revision="25.0.0"
         sha1="e9b2cfdfd59b03643f1e240668275378b96615a8">
         <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-lite-9.8.0_839c8bd1f70708b3f9c5926f70ac0023af7bf5fc\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
-        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.0.0_f4e6dfe208dd42ed2275fb8e18ee71c1a81cfe33\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -174,42 +93,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\libs\unity-classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="23057b18c108b8857fe8a4e6110b459ce3707de8">
-        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\2\unity-classes_d081151d36a0d5128b5587621029e4b20a6f64ae\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-api\9.8.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="266570862e5792ef3c51143a8b8593cf54fac68d">
-        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-api-9.8.0_b342d7f3450a9e1f97da2ea759c7c83084e24acc\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\9.8.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="2d3035050a075484cbf2e33f1ce1f779bae4d451">
-        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-panorama-9.8.0_5da355c53d9a67ebc46960f50277d867f17ac39b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="8a372c4191f80489770a231f7be4820b204b886a">
-        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-25.0.0_9d06a79c8103d52ee0566512fb2a1a206638b050\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\9.8.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -237,24 +120,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.google.firebase\firebase-crash\9.8.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="b4671be3d1288bf4e5f527cd33e42909fbe4ecc6">
-        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-crash-9.8.0_dbbfc6fbc7a37316ef05b00551b37c106d0338d8\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\9.8.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="5ffe8867f51cfc726e9fb21db1e5b6962ebf25a0">
-        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-messaging-9.8.0_f5714066f1a2f7dfe7d04a73b87cba631b7302db\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -273,15 +138,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_e79c93d6a92e60695f9e3d3fc479d676af54ccc2\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage-common\9.8.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -297,15 +153,6 @@
         revision="25.0.0"
         sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
         <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-applinks-1.4.0_64ef360dea986c65cd4a58405dd707e62a0acebe\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast-framework\9.8.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="055eed08c9cff50cac0db69c74c4d9ff7aef3d84">
-        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-framework-9.8.0_e1cc4a85034e6599872e41706965d2a97206af76\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -336,39 +183,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-clearcut\9.8.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="ee5304fd374e0b4ebf6b42d4037fbfb2c5336511">
-        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-clearcut-9.8.0_56db3d285bc865acb96be29db0e04490e9f16344\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\9.8.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="85299bf1924dde0200109a58033c5ef84ecb6991">
-        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-iid-9.8.0_29bb8f7ad5042b5b1e19960cbb1d339e418a7a07\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.8.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="6b6f292b8b951dcf2ecf2b20853e3eabc7d65c48">
         <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-iid-9.8.0_b9bd8635a2dc706734f61aef1859894aac274f5a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-common\9.8.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="4438b1a7848a7c571122ba618aa1304514aabee6">
-        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-common-9.8.0_3aebfe91ffd40439556f69a57e34d317893b5393\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -399,42 +219,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-module\9.8.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="3f8f779a22cbb4c4d0759467a4f1011bb5252970">
-        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-module-9.8.0_76f41eaf2a8b8fb6f84794339a06fbf9a0e89799\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.android.support\design\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="26384be22ddc74cfe197ebda9edbc7d1fd8bd537">
-        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-25.0.0_4a9bbc22850322132f4e6129d966e655ea153891\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
-        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.0.0_2da907efce1e19725673fa2f582d0443bb95aac8\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.android.support\transition\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="0c6d948e6cb9ea6f535d175fb61ba2930719c0e9">
-        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-transition-25.0.0_1b8cd6b4268a5c56adb444ae53c978dd005e17bd\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\libs\internal_impl-25.0.0.jar"
         jumboMode="true"
         optimize="true"
@@ -453,39 +237,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Adolfo\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
-        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-tasks-1.4.0_5c5e65e11beb1405ccd62bbee354366c7756679f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.17.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="23c7c34bfb3cdc0599d49e581486b179bc6b2eee">
         <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.facebook.android-facebook-android-sdk-4.17.0_e8252e8813867dc1346fad7f8768bb0decfa93c1\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\libs\VuforiaUnityPlayer.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="2fcc90620f71b291e5a25760091af316998b9b2a">
-        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\2\VuforiaUnityPlayer_70106d041e77641b12e7ae8e42a275140543482c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.android.support\palette-v7\24.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
-        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-palette-v7-24.0.0_f2b73a854607b751bb6e09bca0d98d8d225fbe96\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -498,66 +255,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.8.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="c61641e333fa88da21758bab8cc28ee16604b05f">
-        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-9.8.0_b5338e28094028d2f44af1bd6be8a8a245a7c150\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gass\9.8.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="363a20f1d25336e827dd24020f2ecdc42d62638f">
-        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gass-9.8.0_42d0f682044599765f5368ad55ec29b0be8bfc91\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
         <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.0.0_508578786cf3649609f0b5649a629100b7ea8290\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\9.8.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="cef85cfc7df40e29fbea58844dd4c1e7d0b15542">
-        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-identity-9.8.0_a196ccfd531f37258623f0fa3bdae98a6c5ba0d6\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="5fee28a3c72e9b5413e64bb1dcd232fb471b3ad4">
-        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_a31ca111a53c5795c18989cdd42c480ac14847c1\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.8.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="bf2e1838e4428616c1aa26edf43de72b5b99bf84">
-        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-9.8.0_eabfbbb72aa35e521e0731a9bca9d7f4cc19b002\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
-        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_d663b6276fcb6536850eb5e22b61c80858572d2b\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -570,30 +273,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\9.8.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="9dae58326f6f6a515022468cce56dd04ec3b9fdb">
-        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gcm-9.8.0_2e39065dcd6ab82a0083f96dd90e99a07d19154f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\9.8.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="20a3c4e355150c15c13dd58045d43ad0c717d916">
         <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-safetynet-9.8.0_5a912d586958fbd25a18203253c3802cb0887479\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\24.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
-        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-mediarouter-v7-24.0.0_fe1d6328a586d119822ea8378ed76217db18652e\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -606,48 +291,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\9.8.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="5f47ede9561595584dca71104baa0fecb36dda87">
-        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-connection-9.8.0_d91c3e3e36220fea62f2e99b69dcfa594b7e0870\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
-        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.0.0_56e453b67c247124ccc0b1f8fc74f46764ca6d5d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics-impl\9.8.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="50e35ae101a679c4c8ef3dda075b1df9d5d947d9">
-        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-impl-9.8.0_46c84da6440ba7f0d61cc29085021f7174407080\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\9.8.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="ca851be26ff89f5b32cc222cee98139fb3fac830">
         <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-9.8.0_485e4e5982e6d4a0d9dfd1e5d980d478744b58be\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="a240804d5e218aa61d0be87e3510673757a15792">
-        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_8e87d6fae474de7a54239cfa645f7ceec9574822\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -687,39 +336,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
-        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.0.0_3fb20139e76d0b6c47c9ee148cb87d52d7b1cd2d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.android.support\customtabs\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="94ba691efc31bf53264db0716d9c9ec03843ea31">
-        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-customtabs-25.0.0_d78a8f5f714f2a40faae98f8e8d82cd91840b621\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.0.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="5e497d60f0cb6ce87c458ac5420a46d0fed49bd0">
         <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.0.0_fa8ef1fbad2190a3fa490b9dc1ae75785f4eed3c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth\9.8.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="15e59454416c6341bd3ed2533b585cd340682dd1">
-        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-9.8.0_55e871be969536ba7304a3dc0d11fae9d1834cd3\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -747,6 +369,384 @@
         revision="25.0.0"
         sha1="04bbbddf868aa02dd33f9e90d8f5d908c360f638">
         <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-location-9.8.0_3ef334cc87a9c7b41762678617fc463c9f8bb0b2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-awareness\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a2537b11ae24b42172d34e2a613fc0b903c56158">
+        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-awareness-9.8.0_48798856b5ccfee8d6885afcc34bc57c8c1b3213\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c81df6bd515398ebe45089b0b16c55752a131f6a">
+        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-nearby-9.8.0_75e68ae7d34e69b0c539b8a4e359f0f988fa7981\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Adolfo\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.6.0\a7537446a030da8eb0da4c71424d16c2589f6c4a\glide-3.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a7537446a030da8eb0da4c71424d16c2589f6c4a">
+        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\glide-3.6.0_71bcaff298af0e001df8f52755c1bfaf859a874b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3daa7a9c9009fd386872a84c177a76979bdcafd6">
+        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-plus-9.8.0_988c61515226b9cf974cdc2d750c07500ca2ea2f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="16afe57c1d7f8165d107c7806ce7b0c71de87159">
+        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-9.8.0_6a0640abda35d17b0f4b3bd7dad4ab2905d44696\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.google.firebase\firebase-config\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="289cad663c288ce965463cb9ece8b35cc7de0fac">
+        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-config-9.8.0_4d95420d02e2d92f5d2a5a0fd3be129dd30bb9c6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e3234cd25e23069abd48ecd2117bc0e8011bf45a">
+        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appindexing-9.8.0_ec7d82f56e777dfc6f916125b20dd5190254e643\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_793cdef4022272b1bcff25df14c76dc42017ea6f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.0.0_f4e6dfe208dd42ed2275fb8e18ee71c1a81cfe33\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\libs\unity-classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="23057b18c108b8857fe8a4e6110b459ce3707de8">
+        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\2\unity-classes_d081151d36a0d5128b5587621029e4b20a6f64ae\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-api\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="266570862e5792ef3c51143a8b8593cf54fac68d">
+        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-api-9.8.0_b342d7f3450a9e1f97da2ea759c7c83084e24acc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2d3035050a075484cbf2e33f1ce1f779bae4d451">
+        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-panorama-9.8.0_5da355c53d9a67ebc46960f50277d867f17ac39b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8a372c4191f80489770a231f7be4820b204b886a">
+        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-25.0.0_9d06a79c8103d52ee0566512fb2a1a206638b050\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.google.firebase\firebase-crash\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b4671be3d1288bf4e5f527cd33e42909fbe4ecc6">
+        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-crash-9.8.0_dbbfc6fbc7a37316ef05b00551b37c106d0338d8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5ffe8867f51cfc726e9fb21db1e5b6962ebf25a0">
+        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-messaging-9.8.0_f5714066f1a2f7dfe7d04a73b87cba631b7302db\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_e79c93d6a92e60695f9e3d3fc479d676af54ccc2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast-framework\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="055eed08c9cff50cac0db69c74c4d9ff7aef3d84">
+        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-framework-9.8.0_e1cc4a85034e6599872e41706965d2a97206af76\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-clearcut\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ee5304fd374e0b4ebf6b42d4037fbfb2c5336511">
+        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-clearcut-9.8.0_56db3d285bc865acb96be29db0e04490e9f16344\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="85299bf1924dde0200109a58033c5ef84ecb6991">
+        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-iid-9.8.0_29bb8f7ad5042b5b1e19960cbb1d339e418a7a07\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-common\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4438b1a7848a7c571122ba618aa1304514aabee6">
+        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-common-9.8.0_3aebfe91ffd40439556f69a57e34d317893b5393\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-module\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3f8f779a22cbb4c4d0759467a4f1011bb5252970">
+        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-module-9.8.0_76f41eaf2a8b8fb6f84794339a06fbf9a0e89799\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.android.support\design\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26384be22ddc74cfe197ebda9edbc7d1fd8bd537">
+        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-25.0.0_4a9bbc22850322132f4e6129d966e655ea153891\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.0.0_2da907efce1e19725673fa2f582d0443bb95aac8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.android.support\transition\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0c6d948e6cb9ea6f535d175fb61ba2930719c0e9">
+        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-transition-25.0.0_1b8cd6b4268a5c56adb444ae53c978dd005e17bd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Adolfo\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-tasks-1.4.0_5c5e65e11beb1405ccd62bbee354366c7756679f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\libs\VuforiaUnityPlayer.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2fcc90620f71b291e5a25760091af316998b9b2a">
+        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\2\VuforiaUnityPlayer_70106d041e77641b12e7ae8e42a275140543482c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.android.support\palette-v7\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
+        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-palette-v7-24.0.0_f2b73a854607b751bb6e09bca0d98d8d225fbe96\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c61641e333fa88da21758bab8cc28ee16604b05f">
+        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-9.8.0_b5338e28094028d2f44af1bd6be8a8a245a7c150\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gass\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="363a20f1d25336e827dd24020f2ecdc42d62638f">
+        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gass-9.8.0_42d0f682044599765f5368ad55ec29b0be8bfc91\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="cef85cfc7df40e29fbea58844dd4c1e7d0b15542">
+        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-identity-9.8.0_a196ccfd531f37258623f0fa3bdae98a6c5ba0d6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9f8fadf3c31a198aa93ba166f2eb671aeff6882f">
+        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_a31ca111a53c5795c18989cdd42c480ac14847c1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bf2e1838e4428616c1aa26edf43de72b5b99bf84">
+        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-9.8.0_eabfbbb72aa35e521e0731a9bca9d7f4cc19b002\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_d663b6276fcb6536850eb5e22b61c80858572d2b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9dae58326f6f6a515022468cce56dd04ec3b9fdb">
+        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gcm-9.8.0_2e39065dcd6ab82a0083f96dd90e99a07d19154f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
+        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-mediarouter-v7-24.0.0_fe1d6328a586d119822ea8378ed76217db18652e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5f47ede9561595584dca71104baa0fecb36dda87">
+        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-connection-9.8.0_d91c3e3e36220fea62f2e99b69dcfa594b7e0870\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.0.0_56e453b67c247124ccc0b1f8fc74f46764ca6d5d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics-impl\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="50e35ae101a679c4c8ef3dda075b1df9d5d947d9">
+        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-impl-9.8.0_46c84da6440ba7f0d61cc29085021f7174407080\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b91781542d9f78a01b5d710ba7c45a14a65e4584">
+        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_8e87d6fae474de7a54239cfa645f7ceec9574822\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.0.0_3fb20139e76d0b6c47c9ee148cb87d52d7b1cd2d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.android.support\customtabs\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="94ba691efc31bf53264db0716d9c9ec03843ea31">
+        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-customtabs-25.0.0_d78a8f5f714f2a40faae98f8e8d82cd91840b621\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="15e59454416c6341bd3ed2533b585cd340682dd1">
+        <dex dex="C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-9.8.0_55e871be969536ba7304a3dc0d11fae9d1834cd3\classes.dex" />
     </item>
 
 </items>
