@@ -25,24 +25,9 @@
         android:textSize="14sp"
         android:textColor="#FFF"
         android:textStyle="bold"
+        android:layout_marginLeft="10dp"
         android:gravity="left"
         android:paddingBottom="4dp"
         android:id="@+id/username"
-        android:layout_above="@+id/email_google"
-        android:layout_alignLeft="@+id/profile_image"
-        android:layout_alignStart="@+id/profile_image" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Google Account"
-        android:id="@+id/email_google"
-        android:gravity="left"
-        android:layout_marginBottom="8dp"
-        android:textSize="14sp"
-        android:textColor="#fff"
-        android:layout_alignParentBottom="true"
-        android:layout_alignLeft="@+id/username"
-        android:layout_alignStart="@+id/username" />
-
+        android:layout_below="@+id/profile_image" />
 </RelativeLayout>

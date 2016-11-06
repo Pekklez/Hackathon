@@ -9,6 +9,7 @@ import com.facebook.CallbackManager;
 import com.facebook.FacebookCallback;
 import com.facebook.FacebookException;
 import com.facebook.FacebookSdk;
+import com.facebook.Profile;
 import com.facebook.login.LoginResult;
 import com.facebook.login.widget.LoginButton;
 
@@ -32,10 +33,10 @@ public class LogginActivity extends AppCompatActivity {
 
                 String idFacebook = loginResult.getAccessToken().getUserId();
 
-
-
+                Profile profile = Profile.getCurrentProfile();
                 Intent intent = new Intent(LogginActivity.this, MainActivity.class);
                 intent.putExtra("idFacebook", idFacebook);
+                intent.putExtra("userFb", profile.getName());
                 startActivity(intent);
             }
 
