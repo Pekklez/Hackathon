@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\DIPFI\Desktop\Hackathon\app\libs\unity-classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="23057b18c108b8857fe8a4e6110b459ce3707de8">
+        <dex dex="C:\Users\DIPFI\Desktop\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\2\unity-classes_041bd5b684244265046e1e6489ff4fffd908e3e3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DIPFI\Desktop\Hackathon\app\libs\VuforiaUnityPlayer.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="2fcc90620f71b291e5a25760091af316998b9b2a">
+        <dex dex="C:\Users\DIPFI\Desktop\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\2\VuforiaUnityPlayer_01ce91cb39d58e826accdeacb05cbed5ba6f988e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DIPFI\Desktop\Hackathon\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="75feec01f3d0fa6b657b8f5151ea72feb5861068">
+        <dex dex="C:\Users\DIPFI\Desktop\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_0e39de976c2c641675c24bd7142a34beddb6cd99\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DIPFI\Desktop\Hackathon\app\libs\Vuforia.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="9419379f995bfb5e731572d46c44c40b284322b5">
+        <dex dex="C:\Users\DIPFI\Desktop\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\2\Vuforia_4ec962b2583ecd0f24c942f420febe00233b03da\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DIPFI\Desktop\Hackathon\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="5717cebe12d643db2a3de304acb8c78e0c91c047">
+        <dex dex="C:\Users\DIPFI\Desktop\Hackathon\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_177769675263a0f979732034c34d5c1f78eff28b\classes.dex" />
+    </item>
+
+</items>

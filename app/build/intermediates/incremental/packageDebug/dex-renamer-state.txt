@@ -1,0 +1,7 @@
+#Sat Nov 05 18:43:12 CST 2016
+base.0=C\:\\Users\\DIPFI\\Desktop\\Hackathon\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_177769675263a0f979732034c34d5c1f78eff28b
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\DIPFI\\Desktop\\Hackathon\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_0e39de976c2c641675c24bd7142a34beddb6cd99\\classes.dex
+base.1=C\:\\Users\\DIPFI\\Desktop\\Hackathon\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_0e39de976c2c641675c24bd7142a34beddb6cd99
+file.0=C\:\\Users\\DIPFI\\Desktop\\Hackathon\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_177769675263a0f979732034c34d5c1f78eff28b\\classes.dex
