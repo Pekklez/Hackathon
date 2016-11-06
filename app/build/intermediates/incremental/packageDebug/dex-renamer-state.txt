@@ -1,7 +1,0 @@
-#Sat Nov 05 19:18:29 CST 2016
-base.0=C\:\\Users\\Adolfo\\AndroidStudioProjects\\Hackathon\\Hackathon\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_8e87d6fae474de7a54239cfa645f7ceec9574822
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=C\:\\Users\\Adolfo\\AndroidStudioProjects\\Hackathon\\Hackathon\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_a31ca111a53c5795c18989cdd42c480ac14847c1\\classes.dex
-base.1=C\:\\Users\\Adolfo\\AndroidStudioProjects\\Hackathon\\Hackathon\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_a31ca111a53c5795c18989cdd42c480ac14847c1
-file.0=C\:\\Users\\Adolfo\\AndroidStudioProjects\\Hackathon\\Hackathon\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_8e87d6fae474de7a54239cfa645f7ceec9574822\\classes.dex
