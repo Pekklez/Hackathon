@@ -19,11 +19,13 @@
     <item name="gris" type="color">#99989d</item>
     <item name="blanco" type="color">#FFF</item>
 
-    <color name="PrimaryColor">#9a5d4037</color>
-    <color name="PrimaryDarkColor">#971976d2</color>
+    <color name="PrimaryColor">#00BCD4</color>
+    <color name="PrimaryDarkColor">#0097A7</color>
+
+
 
     <color name="window_background">#EEEEEE</color>
-    <color name="accentColor">#FF9E9E9E</color>
+    <color name="accentColor">#FF4081</color>
 
     <color name="colorBackground">#FF9E9E9E</color>
 

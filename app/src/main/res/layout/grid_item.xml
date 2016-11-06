@@ -8,12 +8,14 @@
 
     <LinearLayout android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:backgroundTint="@color/gris">
 
     <android.support.v7.widget.CardView
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginBottom="1dp"
         android:id="@+id/cv_1">
 
         <LinearLayout
@@ -22,7 +24,6 @@
             android:layout_marginBottom="@dimen/card_margin"
             android:layout_marginLeft="@dimen/card_margin"
             android:layout_marginRight="@dimen/card_margin"
-            android:layout_marginTop="@dimen/card_margin"
             android:orientation="horizontal">
 
             <LinearLayout
@@ -35,17 +36,18 @@
                     android:id="@+id/nombre1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
+                    android:layout_gravity="top|center_horizontal"
                     android:text="@string/titulo_1"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:textColor="@android:color/black"
                     android:textSize="18sp" />
 
                 <TextView
+                    android:textColor="@color/gris"
                     android:id="@+id/descripcion1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
+                    android:layout_gravity="bottom"
                     android:paddingLeft="10dp"
                     android:text="@string/descripcion_1"
                     android:textAppearance="?android:attr/textAppearanceSmall"
@@ -59,13 +61,14 @@
             android:id="@+id/image_buton1"
             android:layout_width="@dimen/grid_item_image_size"
             android:layout_height="@dimen/grid_item_image_size"
-            android:layout_gravity="right"
-            android:layout_marginTop="@dimen/card_margin"
+            android:layout_gravity="right|center_vertical"
             android:background="@color/transparent"
-            android:src="@drawable/arrow_right" />
+            android:src="@drawable/information" />
 
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/profile_image1"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:src="@drawable/museo_regional"
@@ -77,6 +80,7 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginBottom="1dp"
         android:id="@+id/cv_2">
 
         <LinearLayout
@@ -85,7 +89,6 @@
             android:layout_marginBottom="@dimen/card_margin"
             android:layout_marginLeft="@dimen/card_margin"
             android:layout_marginRight="@dimen/card_margin"
-            android:layout_marginTop="@dimen/card_margin"
             android:orientation="horizontal">
 
             <LinearLayout
@@ -98,7 +101,8 @@
                     android:id="@+id/nombre2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
+                    android:layout_gravity="top|center_horizontal"
+
                     android:text="@string/titulo_2"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:textColor="@android:color/black"
@@ -125,7 +129,7 @@
             android:layout_gravity="right"
             android:layout_marginTop="@dimen/card_margin"
             android:background="@color/transparent"
-            android:src="@drawable/arrow_right" />
+            android:src="@drawable/information" />
 
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/profile_image2"
@@ -140,6 +144,7 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginBottom="1dp"
         android:id="@+id/cv_3">
 
         <LinearLayout
@@ -148,7 +153,6 @@
             android:layout_marginBottom="@dimen/card_margin"
             android:layout_marginLeft="@dimen/card_margin"
             android:layout_marginRight="@dimen/card_margin"
-            android:layout_marginTop="@dimen/card_margin"
             android:orientation="horizontal">
 
             <LinearLayout
@@ -161,7 +165,7 @@
                     android:id="@+id/nombre3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
+                    android:layout_gravity="top|center_horizontal"
                     android:text="@string/titulo_3"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:textColor="@android:color/black"
@@ -188,7 +192,7 @@
             android:layout_gravity="right"
             android:layout_marginTop="@dimen/card_margin"
             android:background="@color/transparent"
-            android:src="@drawable/arrow_right" />
+            android:src="@drawable/information" />
 
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/profile_image3"
@@ -203,6 +207,7 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginBottom="1dp"
         android:id="@+id/cv_4">
 
         <LinearLayout
@@ -251,7 +256,7 @@
             android:layout_gravity="right"
             android:layout_marginTop="@dimen/card_margin"
             android:background="@color/transparent"
-            android:src="@drawable/arrow_right" />
+            android:src="@drawable/information" />
 
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/profile_image4"
@@ -266,6 +271,7 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginBottom="1dp"
         android:id="@+id/cv_5">
 
         <LinearLayout
@@ -314,7 +320,7 @@
             android:layout_gravity="right"
             android:layout_marginTop="@dimen/card_margin"
             android:background="@color/transparent"
-            android:src="@drawable/arrow_right" />
+            android:src="@drawable/information" />
 
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/profile_image5"
@@ -329,6 +335,7 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginBottom="1dp"
         android:id="@+id/cv_6">
 
         <LinearLayout
@@ -377,7 +384,7 @@
             android:layout_gravity="right"
             android:layout_marginTop="@dimen/card_margin"
             android:background="@color/transparent"
-            android:src="@drawable/arrow_right" />
+            android:src="@drawable/information" />
 
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/profile_image6"
@@ -392,6 +399,7 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginBottom="1dp"
         android:id="@+id/cv_7">
 
         <LinearLayout
@@ -440,7 +448,7 @@
             android:layout_gravity="right"
             android:layout_marginTop="@dimen/card_margin"
             android:background="@color/transparent"
-            android:src="@drawable/arrow_right" />
+            android:src="@drawable/information" />
 
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/profile_image7"
@@ -455,6 +463,7 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginBottom="1dp"
         android:id="@+id/cv_8">
 
         <LinearLayout
@@ -503,7 +512,7 @@
             android:layout_gravity="right"
             android:layout_marginTop="@dimen/card_margin"
             android:background="@color/transparent"
-            android:src="@drawable/arrow_right" />
+            android:src="@drawable/information" />
 
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/profile_image8"
@@ -518,6 +527,7 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginBottom="1dp"
         android:id="@+id/cv_9">
 
         <LinearLayout
@@ -566,7 +576,7 @@
             android:layout_gravity="right"
             android:layout_marginTop="@dimen/card_margin"
             android:background="@color/transparent"
-            android:src="@drawable/arrow_right" />
+            android:src="@drawable/information" />
 
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/profile_image9"
@@ -581,6 +591,7 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginBottom="1dp"
         android:id="@+id/cv_10">
 
         <LinearLayout
@@ -629,7 +640,7 @@
             android:layout_gravity="right"
             android:layout_marginTop="@dimen/card_margin"
             android:background="@color/transparent"
-            android:src="@drawable/arrow_right" />
+            android:src="@drawable/information" />
 
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/profile_image10"

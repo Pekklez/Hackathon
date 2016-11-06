@@ -353,9 +353,9 @@ ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\mai
 	android:name
 		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:62:19-60
 activity#com.UAQ.LogginActivity
-ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:64:5-96
+ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:64:5-89
 	android:theme
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:64:46-84
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:64:46-77
 	android:name
 		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:64:15-45
 activity#com.UAQ.MainActivity
@@ -367,9 +367,9 @@ ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\mai
 	android:name
 		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:65:15-43
 activity#com.UAQ.ItemsGrid
-ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:66:5-91
+ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:66:5-84
 	android:theme
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:66:41-79
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:66:41-72
 	android:name
 		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:66:15-40
 activity#com.UAQ.DetailActivity

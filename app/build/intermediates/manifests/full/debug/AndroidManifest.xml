@@ -119,14 +119,14 @@
 
         <activity
             android:name="com.UAQ.LogginActivity"
-            android:theme="@style/Theme.AppCompat" />
+            android:theme="@style/AppTheme" />
         <activity
             android:name="com.UAQ.MainActivity"
             android:label="@string/title_activity_main"
             android:theme="@style/AppTheme" />
         <activity
             android:name="com.UAQ.ItemsGrid"
-            android:theme="@style/Theme.AppCompat" />
+            android:theme="@style/AppTheme" />
         <activity
             android:name="com.UAQ.DetailActivity"
             android:theme="@style/AppTheme" />
