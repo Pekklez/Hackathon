@@ -110,6 +110,10 @@
             android:name=".MainActivity"
             android:label="@string/title_activity_main"
             android:theme="@style/AppTheme"></activity>
+        <activity
+            android:name=".ItemsGrid"
+            android:theme="@style/Theme.AppCompat"></activity>
     </application>
+
 
 </manifest> <!-- android:installLocation="preferExternal" -->

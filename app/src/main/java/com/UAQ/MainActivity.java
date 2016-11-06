@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
                 switch (item.getItemId()) {
 
                     case R.id.cafe:
-
+                        startActivity(new Intent(getApplicationContext(), ItemsGrid.class));
                         return true;
                     // For rest of the options we just show a toast on click
                     case R.id.alimentos:
