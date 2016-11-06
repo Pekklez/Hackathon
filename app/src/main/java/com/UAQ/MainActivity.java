@@ -79,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
                         return true;
                     // For rest of the options we just show a toast on click
                     case R.id.alimentos:
-
+                        startActivity(new Intent(getApplicationContext(), MapsActivity.class));
                         return true;
                     case R.id.pedidos:
                         //Toast.makeText(getApplicationContext(),"Pedidos",Toast.LENGTH_SHORT).show();

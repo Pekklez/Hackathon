@@ -18,6 +18,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
+import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.MapView;
 import com.google.android.gms.maps.OnMapReadyCallback;
@@ -34,13 +35,10 @@ public class DetailActivity extends AppCompatActivity {
     private MapView mapView;
     private Marker marker;
 
-    private static final LatLng ONE = new LatLng(32.882216, -117.222028);
-    private static final LatLng TWO = new LatLng(32.872000, -117.232004);
-    private static final LatLng THREE = new LatLng(32.880252, -117.233034);
-    private static final LatLng FOUR = new LatLng(32.885200, -117.226003);
+    private static LatLng ONE;
 
     private ArrayList<LatLng> coords = new ArrayList<LatLng>();
-    private static final int POINTS = 4;
+    private static final int POINTS = 1;
 
 
     private static final String EXTRA_NAME = "com.uaq.toolbarapp.name";
@@ -56,6 +54,7 @@ public class DetailActivity extends AppCompatActivity {
         mapView.getMapAsync(new OnMapReadyCallback() {
             @Override
             public void onMapReady(GoogleMap googleMap) {
+                googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(ONE, 15));
                 setUpMap(googleMap);
             }
         });
@@ -75,6 +74,8 @@ public class DetailActivity extends AppCompatActivity {
         collapser.setTitle(name); // Cambiar título
 
         Bundle extras = getIntent().getExtras();
+
+        ONE = extras.getParcelable("from_position");
 
         Bitmap bmp = (Bitmap) extras.getParcelable("imagebitmap");
         ImageView image = (ImageView) findViewById(R.id.image_paralax);
@@ -130,9 +131,7 @@ public class DetailActivity extends AppCompatActivity {
         mMap = map;
 
         coords.add(ONE);
-        coords.add(TWO);
-        coords.add(THREE);
-        coords.add(FOUR);
+
         for (int i = 0; i < POINTS; i++) {
             mMap.addMarker(new MarkerOptions()
                     .position(coords.get(i))

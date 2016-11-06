@@ -36,4 +36,5 @@
 
     <string name="titulo_10">Casa de Ecala</string>
     <string name="descripcion_10">Toma su nombre del regidor de la ciudad don Tomás López de Ecala en el siglo XVIII</string>
+    <string name="title_activity_maps">Map</string>
 </resources>

@@ -11,6 +11,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
+import com.google.android.gms.maps.model.LatLng;
 
 /**
  * Created by Adolfo on 05/11/2016.
@@ -84,30 +85,64 @@ public class ItemsGrid  extends AppCompatActivity{
             @Override
             public void onClick(View v) {
                 Intent myIntent = new Intent(getApplicationContext(), DetailActivity.class);
-                myIntent.putExtra("EXTRA_NAME", name1.getText());
+                myIntent.putExtra("EXTRA_NAME", name1.getText());                    // MODIFICAR NAME
+
+                LatLng fromPosition = new LatLng(20.5919162,-100.3973391);           //  MODIFICAR LAT LNG
 
                 imageView1.buildDrawingCache();
                 Bitmap image= imageView1.getDrawingCache();
 
                 Bundle extras = new Bundle();
                 extras.putParcelable("imagebitmap", image);
+                extras.putParcelable("from_position", fromPosition);
                 myIntent.putExtras(extras);
 
 
-                myIntent.putExtra("EXTRA_DESCRIPCION", descripcion1.getText());
+                myIntent.putExtra("EXTRA_DESCRIPCION", descripcion1.getText());  // MODIFICAR DESCRIPCION
                 v.getContext().startActivity(myIntent);
-
             }
         });
         imageButton2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
+                Intent myIntent = new Intent(getApplicationContext(), DetailActivity.class);
+                myIntent.putExtra("EXTRA_NAME", name2.getText());                    // MODIFICAR NAME
+
+                LatLng fromPosition = new LatLng(20.5320625,-100.3632066);           //  MODIFICAR LAT LNG
+
+                imageView2.buildDrawingCache();
+                Bitmap image= imageView2.getDrawingCache();                         // MODIFICAR IMAGEVIEW
+
+                Bundle extras = new Bundle();
+                extras.putParcelable("imagebitmap", image);
+                extras.putParcelable("from_position", fromPosition);
+                myIntent.putExtras(extras);
+
+
+                myIntent.putExtra("EXTRA_DESCRIPCION", descripcion2.getText());  // MODIFICAR DESCRIPCION
+                v.getContext().startActivity(myIntent);
             }
         });
         imageButton3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent myIntent = new Intent(getApplicationContext(), DetailActivity.class);
+                myIntent.putExtra("EXTRA_NAME", name3.getText());                    // MODIFICAR NAME
+
+                LatLng fromPosition = new LatLng(20.5928291,-100.3868695);           //  MODIFICAR LAT LNG
+
+                imageView3.buildDrawingCache();
+                Bitmap image= imageView3.getDrawingCache();
+
+                Bundle extras = new Bundle();
+                extras.putParcelable("imagebitmap", image);
+                extras.putParcelable("from_position", fromPosition);
+                myIntent.putExtras(extras);
+
+
+                myIntent.putExtra("EXTRA_DESCRIPCION", descripcion3.getText());  // MODIFICAR DESCRIPCION
+                v.getContext().startActivity(myIntent);
 
             }
         });
@@ -115,47 +150,155 @@ public class ItemsGrid  extends AppCompatActivity{
             @Override
             public void onClick(View v) {
 
+                Intent myIntent = new Intent(getApplicationContext(), DetailActivity.class);
+                myIntent.putExtra("EXTRA_NAME", name4.getText());                    // MODIFICAR NAME
+
+                LatLng fromPosition = new LatLng(20.5926205,-100.3932835);           //  MODIFICAR LAT LNG
+
+                imageView4.buildDrawingCache();
+                Bitmap image= imageView4.getDrawingCache();
+
+                Bundle extras = new Bundle();
+                extras.putParcelable("imagebitmap", image);
+                extras.putParcelable("from_position", fromPosition);
+                myIntent.putExtras(extras);
+
+
+                myIntent.putExtra("EXTRA_DESCRIPCION", descripcion4.getText());  // MODIFICAR DESCRIPCION
+                v.getContext().startActivity(myIntent);
             }
         });
         imageButton5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
+                Intent myIntent = new Intent(getApplicationContext(), DetailActivity.class);
+                myIntent.putExtra("EXTRA_NAME", name5.getText());                    // MODIFICAR NAME
+
+                LatLng fromPosition = new LatLng(20.5929527,-100.397889);           //  MODIFICAR LAT LNG
+
+                imageView5.buildDrawingCache();
+                Bitmap image= imageView5.getDrawingCache();
+
+                Bundle extras = new Bundle();
+                extras.putParcelable("imagebitmap", image);
+                extras.putParcelable("from_position", fromPosition);
+                myIntent.putExtras(extras);
+
+
+                myIntent.putExtra("EXTRA_DESCRIPCION", descripcion5.getText());  // MODIFICAR DESCRIPCION
+                v.getContext().startActivity(myIntent);
             }
         });
         imageButton6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
+                Intent myIntent = new Intent(getApplicationContext(), DetailActivity.class);
+                myIntent.putExtra("EXTRA_NAME", name6.getText());                    // MODIFICAR NAME
+
+                LatLng fromPosition = new LatLng(20.5929525,-100.4044551);           //  MODIFICAR LAT LNG
+
+                imageView6.buildDrawingCache();
+                Bitmap image= imageView6.getDrawingCache();
+
+                Bundle extras = new Bundle();
+                extras.putParcelable("imagebitmap", image);
+                extras.putParcelable("from_position", fromPosition);
+                myIntent.putExtras(extras);
+
+
+                myIntent.putExtra("EXTRA_DESCRIPCION", descripcion6.getText());  // MODIFICAR DESCRIPCION
+                v.getContext().startActivity(myIntent);
             }
         });
         imageButton7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
+                Intent myIntent = new Intent(getApplicationContext(), DetailActivity.class);
+                myIntent.putExtra("EXTRA_NAME", name7.getText());                    // MODIFICAR NAME
+
+                LatLng fromPosition = new LatLng(20.5942768,-100.3949366);           //  MODIFICAR LAT LNG
+
+                imageView7.buildDrawingCache();
+                Bitmap image= imageView7.getDrawingCache();
+
+                Bundle extras = new Bundle();
+                extras.putParcelable("imagebitmap", image);
+                extras.putParcelable("from_position", fromPosition);
+                myIntent.putExtras(extras);
+
+
+                myIntent.putExtra("EXTRA_DESCRIPCION", descripcion7.getText());  // MODIFICAR DESCRIPCION
+                v.getContext().startActivity(myIntent);
             }
         });
         imageButton8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
+                Intent myIntent = new Intent(getApplicationContext(), DetailActivity.class);
+                myIntent.putExtra("EXTRA_NAME", name8.getText());                    // MODIFICAR NAME
+
+                LatLng fromPosition = new LatLng(20.592489,-100.3824324);           //  MODIFICAR LAT LNG
+
+                imageView8.buildDrawingCache();
+                Bitmap image= imageView8.getDrawingCache();
+
+                Bundle extras = new Bundle();
+                extras.putParcelable("imagebitmap", image);
+                extras.putParcelable("from_position", fromPosition);
+                myIntent.putExtras(extras);
+
+
+                myIntent.putExtra("EXTRA_DESCRIPCION", descripcion8.getText());  // MODIFICAR DESCRIPCION
+                v.getContext().startActivity(myIntent);
             }
         });
         imageButton9.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
+                Intent myIntent = new Intent(getApplicationContext(), DetailActivity.class);
+                myIntent.putExtra("EXTRA_NAME", name9.getText());                    // MODIFICAR NAME
+
+                LatLng fromPosition = new LatLng(20.5932645,-100.3917004);           //  MODIFICAR LAT LNG
+
+                imageView9.buildDrawingCache();
+                Bitmap image= imageView9.getDrawingCache();
+
+                Bundle extras = new Bundle();
+                extras.putParcelable("imagebitmap", image);
+                extras.putParcelable("from_position", fromPosition);
+                myIntent.putExtras(extras);
+
+
+                myIntent.putExtra("EXTRA_DESCRIPCION", descripcion9.getText());  // MODIFICAR DESCRIPCION
+                v.getContext().startActivity(myIntent);
             }
         });
         imageButton10.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent myIntent = new Intent(getApplicationContext(), DetailActivity.class);
+                myIntent.putExtra("EXTRA_NAME", name10.getText());                    // MODIFICAR NAME
+
+                LatLng fromPosition = new LatLng(20.5933286,-100.4121403);           //  MODIFICAR LAT LNG
+
+                imageView10.buildDrawingCache();
+                Bitmap image= imageView10.getDrawingCache();
+
+                Bundle extras = new Bundle();
+                extras.putParcelable("imagebitmap", image);
+                extras.putParcelable("from_position", fromPosition);
+                myIntent.putExtras(extras);
+
+
+                myIntent.putExtra("EXTRA_DESCRIPCION", descripcion10.getText());  // MODIFICAR DESCRIPCION
+                v.getContext().startActivity(myIntent);
 
             }
         });
-
-
-
-
     }
 }
