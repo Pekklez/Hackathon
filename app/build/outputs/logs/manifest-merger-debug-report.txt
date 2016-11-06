@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:2:1-80:12
+ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:2:1-82:12
 	package
 		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:3:1-18
 		INJECTED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml
@@ -202,7 +202,7 @@ ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\mai
 	android:name
 		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:28:26-81
 application
-ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:30:1-78:15
+ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:30:1-80:15
 MERGED from [com.facebook.android:facebook-android-sdk:4.17.0] C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.17.0\AndroidManifest.xml:28:5-38:19
 MERGED from [com.android.support:support-v4:25.0.0] C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.0\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-compat:25.0.0] C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\AndroidManifest.xml:25:5-20
@@ -315,95 +315,95 @@ ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\mai
 	android:name
 		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:44:20-74
 activity#com.UAQ.SplashActivity
-ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:46:5-52:16
+ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:46:5-48:16
 	android:theme
 		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:46:46-80
 	android:name
 		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:46:15-45
-intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:47:9-51:25
-action#android.intent.action.MAIN
-ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:48:13-65
-	android:name
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:48:21-62
-category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:50:13-73
-	android:name
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:50:23-70
 activity#com.unity3d.player.VideoPlayer
-ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:53:5-54:81
+ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:49:5-50:81
 	android:screenOrientation
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:54:42-78
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:50:42-78
 	android:label
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:54:9-41
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:50:9-41
 	android:configChanges
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:53:61-218
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:49:61-218
 	android:name
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:53:15-60
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:49:15-60
 uses-library#com.ti.s3d
-ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:60:5-72
+ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:56:5-72
 	android:required
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:60:45-69
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:56:45-69
 	android:name
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:60:19-44
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:56:19-44
 uses-library#com.osterhoutgroup.api.ext
-ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:62:5-88
+ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:58:5-88
 	android:required
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:62:61-85
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:58:61-85
 	android:name
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:62:19-60
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:58:19-60
 activity#com.UAQ.LogginActivity
-ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:64:5-89
+ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:60:5-66:16
 	android:theme
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:64:46-77
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:60:46-77
 	android:name
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:64:15-45
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:60:15-45
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:61:9-65:25
+action#android.intent.action.MAIN
+ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:62:13-65
+	android:name
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:62:21-62
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:64:13-73
+	android:name
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:64:23-70
 activity#com.UAQ.MainActivity
-ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:65:5-131
+ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:67:5-131
 	android:label
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:65:44-87
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:67:44-87
 	android:theme
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:65:88-119
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:67:88-119
 	android:name
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:65:15-43
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:67:15-43
 activity#com.UAQ.ItemsGrid
-ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:66:5-84
+ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:68:5-84
 	android:theme
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:66:41-72
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:68:41-72
 	android:name
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:66:15-40
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:68:15-40
 activity#com.UAQ.DetailActivity
-ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:67:5-89
+ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:69:5-89
 	android:theme
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:67:46-77
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:69:46-77
 	android:name
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:67:15-45
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:69:15-45
 activity#com.UAQ.MapsActivity
-ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:68:5-138
+ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:70:5-138
 	android:label
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:68:51-94
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:70:51-94
 	android:theme
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:68:95-126
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:70:95-126
 	android:name
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:68:15-50
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:70:15-50
 activity#com.UAQ.UnityPlayerActivity
-ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:70:5-74:16
+ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:72:5-76:16
 	android:screenOrientation
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:70:48-86
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:72:48-86
 	android:label
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:70:15-47
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:72:15-47
 	android:launchMode
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:70:87-118
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:72:87-118
 	android:configChanges
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:70:119-276
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:72:119-276
 	android:name
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:70:277-319
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:72:277-319
 meta-data#com.google.android.geo.API_KEY
-ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:76:5-77:67
+ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:78:5-79:67
 	android:value
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:77:9-64
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:79:9-64
 	android:name
-		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:76:16-61
+		ADDED from C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\src\main\AndroidManifest.xml:78:16-61
 activity#com.facebook.CustomTabActivity
 ADDED from [com.facebook.android:facebook-android-sdk:4.17.0] C:\Users\Adolfo\AndroidStudioProjects\Hackathon\Hackathon\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.17.0\AndroidManifest.xml:33:9-36:20
 	android:exported

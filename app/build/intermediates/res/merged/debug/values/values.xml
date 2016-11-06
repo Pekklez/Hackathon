@@ -1174,6 +1174,7 @@ Destacan la estupenda arquería de la planta baja y los balcones de la parte sup
         <item name="windowNoTitle">true</item>
         <item name="android:textColor">#FFFFFF</item>
         <item name="android:statusBarColor">@color/PrimaryDarkColor</item>
+        <item name="colorAccent">@color/accentColor</item>
     </style>
     <style name="Base.AlertDialog.AppCompat" parent="android:Widget">
         <item name="android:layout">@layout/abc_alert_dialog_material</item>
@@ -2695,11 +2696,6 @@ Destacan la estupenda arquería de la planta baja y los balcones de la parte sup
         <item name="mediaRouteAudioTrackDrawable">@drawable/mr_ic_audiotrack_light</item>
         <item name="mediaRouteControllerPrimaryTextStyle">@style/Widget.MediaRouter.ControllerText.Primary.Light</item>
         <item name="mediaRouteControllerSecondaryTextStyle">@style/Widget.MediaRouter.ControllerText.Secondary.Light</item>
-    </style>
-    <style name="ThemeAS" parent="Theme.AppCompat.NoActionBar">
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
-        <item name="android:statusBarColor">#880E4F</item>
     </style>
     <style name="ThemeOverlay.AppCompat" parent="Base.ThemeOverlay.AppCompat"/>
     <style name="ThemeOverlay.AppCompat.ActionBar" parent="Base.ThemeOverlay.AppCompat.ActionBar"/>

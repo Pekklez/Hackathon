@@ -10,13 +10,10 @@
         <item name="windowNoTitle">true</item>
         <item name="android:textColor">#FFFFFF</item>
         <item name="android:statusBarColor">@color/PrimaryDarkColor</item>
+        <item name="colorAccent">@color/accentColor</item>
     </style>
 
-    <style name="ThemeAS" parent="Theme.AppCompat.NoActionBar">
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
-        <item name="android:statusBarColor">#880E4F</item>
-    </style>
+
 
     <style name="ThemeSplash" parent="Theme.AppCompat.NoActionBar">
         <item name="android:statusBarColor">@color/blanco</item>

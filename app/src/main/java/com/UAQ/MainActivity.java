@@ -5,12 +5,14 @@ import android.content.Intent;
 import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.graphics.Color;
 import android.graphics.Matrix;
 import android.graphics.drawable.Drawable;
 import android.graphics.drawable.LayerDrawable;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.app.Activity;
+import android.preference.PreferenceActivity;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -23,18 +25,30 @@ import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.text.Html;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.Window;
 import android.widget.ImageView;
+import android.widget.TableLayout;
+import android.widget.TableRow;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.loopj.android.http.AsyncHttpClient;
+import com.loopj.android.http.AsyncHttpResponseHandler;
+import com.loopj.android.http.RequestParams;
+
+import org.json.JSONArray;
+import org.json.JSONObject;
 
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
+
+import cz.msebera.android.httpclient.Header;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -47,11 +61,16 @@ public class MainActivity extends AppCompatActivity {
     Drawable imagen;
     String idFacebook, userFacebook;
 
+    private TableLayout tlDetalleVenta;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         this.requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.acitivity_principal);
+
+        tlDetalleVenta = (TableLayout)findViewById(R.id.tl_detalle_venta);
+        obdatos("192.168.15.32", "/public_html/Tweets.php");
 
         //Get Image
 
@@ -124,6 +143,120 @@ public class MainActivity extends AppCompatActivity {
 
         //calling sync state is necessay or else your hamburger icon wont show up
         actionBarDrawerToggle.syncState();
+
+
+    }
+
+    public void obdatos(String ip, String path)
+    {
+        AsyncHttpClient client = new AsyncHttpClient();
+        String url = "http://" + ip + path;
+
+        Log.e("ip", url);
+        //Parametros que se envian ---  bundle.getInt(key_intent_iD)
+        RequestParams parametros = new RequestParams();
+
+        //Mandar "Id Venta" para mostrar los datos de "mostrar_detale_venta.php"
+        //parametros.put("id", bundle.getInt(key_intent_iD));
+
+        client.post(url, parametros, new AsyncHttpResponseHandler() {
+            @Override
+            public void onSuccess(int statusCode, Header[] headers, byte[] responseBody) {
+                if (statusCode == 200)
+                {
+                    obDatosJson(new String(responseBody));
+                }
+            }
+
+            @Override
+            public void onFailure(int statusCode, Header[] headers, byte[] responseBody, Throwable error) {
+
+            }
+        });
+    }
+
+    public ArrayList<String> obDatosJson(String reponse)
+    {
+        ArrayList<String> list = new ArrayList<>();
+        try
+        {
+            JSONObject jsonObject = new JSONObject(reponse);
+            JSONArray jsonArray = jsonObject.getJSONArray("statuses");
+
+            String idUser="";
+            String textoTw="";
+
+            for(int i = 0 ; i < jsonArray.length(); i++)
+            {
+                textoTw  =   "    " + jsonArray.getJSONObject(i).getString("text");
+                String temp  =     jsonArray.getJSONObject(i).getString("user");
+
+                JSONObject objUser = new JSONObject(temp);
+                idUser = objUser.getString("name");
+
+
+
+                //Definir Table Row
+                TableRow row = new TableRow(getBaseContext());
+                /*
+                * Dar parametos Al Table Row
+                *   MATCH_PARENT
+                *   WRAP_CONTENT
+                *   weightSum = 10f
+                * */
+                TableRow.LayoutParams params1 = new TableRow.LayoutParams(TableRow.LayoutParams.MATCH_PARENT, TableRow.LayoutParams.WRAP_CONTENT, 10f);
+                row.setPadding(10, 10, 10, 10);
+                row.setLayoutParams(params1);
+
+                //TextView 1 -----------------------------------------------------------------------
+                TextView tv01 = new TextView(getBaseContext());
+                //TextView 1 Parametros
+                /*
+                * Dar parametos Al TextView
+                *   WRAP_CONTENT
+                *   layout_weight= = 2.5f
+                * */
+                TableRow.LayoutParams params2 = new TableRow.LayoutParams(0, TableRow.LayoutParams.WRAP_CONTENT, 2.5f);
+                tv01.setLayoutParams(params2);
+                tv01.setPadding(30,30,30,30);
+                //TextView 1 seleccionar Texto
+                tv01.setText(idUser + "\n" + "\n" + textoTw);
+                tv01.setElevation(10);
+
+                tv01.setText(Html.fromHtml("<b>"+idUser+"</b><br><br><p align=\"justify\">"+textoTw+"</p>"));
+
+
+                if((i+1)%2 == 0)
+                {
+                    //Si Es "Par" La Fila "BackgroundColor" = White
+                    tv01.setBackgroundColor(Color.WHITE);
+                    tv01.setTextColor(Color.GRAY);
+
+                }
+                else
+                {
+                    //Si Es "Impar" La Fila "BackgroundColor" = row 2 "Azul"
+                    tv01.setBackgroundColor(Color.WHITE);
+                    tv01.setTextColor(Color.GRAY);
+
+                }
+
+                //Agregar TextView Al TableRow------------------------------------------------------
+                row.addView(tv01);
+
+                //Agregar El TableRow al TableLayout------------------------------------------------
+                tlDetalleVenta.addView(row);
+
+                //Seleccionar Total
+                //tvTotal.setText("Total: " + Integer.toString(total));
+            }
+
+        }catch (Exception e)
+        {
+            e.printStackTrace();
+        }
+
+        return list;
     }
 
     @Override
@@ -212,11 +345,11 @@ public class MainActivity extends AppCompatActivity {
             roundedDrawable.setCornerRadius(resized.getHeight());
             imagen = roundedDrawable;
 
-            imageViewFacebook_logged = (ImageView)findViewById(R.id.profile_image);
-            imageViewFacebook_logged.setImageDrawable(imagen);
+            //imageViewFacebook_logged = (ImageView)findViewById(R.id.profile_image);
+            //imageViewFacebook_logged.setImageDrawable(imagen);
 
-            textView_user = (TextView)findViewById(R.id.username);
-            textView_user.setText(userFacebook);
+            //textView_user = (TextView)findViewById(R.id.username);
+            //textView_user.setText(userFacebook);
 
         }
     }

@@ -8,6 +8,8 @@ import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.ImageView;
@@ -39,16 +41,20 @@ public class ItemsGrid  extends AppCompatActivity{
 
         setContentView(R.layout.grid_item);
 
+        setToolbar();// Añadir action bar
+        if (getSupportActionBar() != null) // Habilitar up button
+            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+        getSupportActionBar().setTitle("Sitios de Interes");
+
+
         imageButton1 = (ImageButton)findViewById(R.id.image_buton1);
         imageButton2 = (ImageButton)findViewById(R.id.image_buton2);
         imageButton3 = (ImageButton)findViewById(R.id.image_buton3);
         imageButton4 = (ImageButton)findViewById(R.id.image_buton4);
         imageButton5 = (ImageButton)findViewById(R.id.image_buton5);
         imageButton6 = (ImageButton)findViewById(R.id.image_buton6);
-        imageButton7 = (ImageButton)findViewById(R.id.image_buton7);
-        imageButton8 = (ImageButton)findViewById(R.id.image_buton8);
-        imageButton9 = (ImageButton)findViewById(R.id.image_buton9);
-        imageButton10 = (ImageButton)findViewById(R.id.image_buton10);
+
 
         imageView1 = (ImageView)findViewById(R.id.profile_image1);
         imageView2 = (ImageView)findViewById(R.id.profile_image2);
@@ -56,10 +62,7 @@ public class ItemsGrid  extends AppCompatActivity{
         imageView4 = (ImageView)findViewById(R.id.profile_image4);
         imageView5 = (ImageView)findViewById(R.id.profile_image5);
         imageView6 = (ImageView)findViewById(R.id.profile_image6);
-        imageView7 = (ImageView)findViewById(R.id.profile_image7);
-        imageView8 = (ImageView)findViewById(R.id.profile_image8);
-        imageView9 = (ImageView)findViewById(R.id.profile_image9);
-        imageView10 = (ImageView)findViewById(R.id.profile_image10);
+
 
         name1 = (TextView)findViewById(R.id.nombre1);
         name2 = (TextView)findViewById(R.id.nombre2);
@@ -67,10 +70,7 @@ public class ItemsGrid  extends AppCompatActivity{
         name4 = (TextView)findViewById(R.id.nombre4);
         name5 = (TextView)findViewById(R.id.nombre5);
         name6 = (TextView)findViewById(R.id.nombre6);
-        name7 = (TextView)findViewById(R.id.nombre7);
-        name8 = (TextView)findViewById(R.id.nombre8);
-        name9 = (TextView)findViewById(R.id.nombre9);
-        name10 = (TextView)findViewById(R.id.nombre10);
+
 
         descripcion1 = (TextView)findViewById(R.id.descripcion1);
         descripcion2 = (TextView)findViewById(R.id.descripcion2);
@@ -78,10 +78,7 @@ public class ItemsGrid  extends AppCompatActivity{
         descripcion4 = (TextView)findViewById(R.id.descripcion4);
         descripcion5 = (TextView)findViewById(R.id.descripcion5);
         descripcion6 = (TextView)findViewById(R.id.descripcion6);
-        descripcion7 = (TextView)findViewById(R.id.descripcion7);
-        descripcion8 = (TextView)findViewById(R.id.descripcion8);
-        descripcion9 = (TextView)findViewById(R.id.descripcion9);
-        descripcion10 = (TextView)findViewById(R.id.descripcion10);
+
 
 
         imageButton1.setOnClickListener(new View.OnClickListener() {
@@ -216,93 +213,23 @@ public class ItemsGrid  extends AppCompatActivity{
                 v.getContext().startActivity(myIntent);
             }
         });
-        imageButton7.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
 
-                Intent myIntent = new Intent(getApplicationContext(), DetailActivity.class);
-                myIntent.putExtra("EXTRA_NAME", name7.getText());                    // MODIFICAR NAME
+    }
 
-                LatLng fromPosition = new LatLng(20.5942768,-100.3949366);           //  MODIFICAR LAT LNG
+    private void setToolbar() {
+        // Añadir la Toolbar
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+    }
 
-                imageView7.buildDrawingCache();
-                Bitmap image= imageView7.getDrawingCache();
-
-                Bundle extras = new Bundle();
-                extras.putParcelable("imagebitmap", image);
-                extras.putParcelable("from_position", fromPosition);
-                myIntent.putExtras(extras);
-
-
-                myIntent.putExtra("EXTRA_DESCRIPCION",getResources().getString(R.string.contenido_7));  // MODIFICAR DESCRIPCION
-                v.getContext().startActivity(myIntent);
-            }
-        });
-        imageButton8.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                Intent myIntent = new Intent(getApplicationContext(), DetailActivity.class);
-                myIntent.putExtra("EXTRA_NAME", name8.getText());                    // MODIFICAR NAME
-
-                LatLng fromPosition = new LatLng(20.592489,-100.3824324);           //  MODIFICAR LAT LNG
-
-                imageView8.buildDrawingCache();
-                Bitmap image= imageView8.getDrawingCache();
-
-                Bundle extras = new Bundle();
-                extras.putParcelable("imagebitmap", image);
-                extras.putParcelable("from_position", fromPosition);
-                myIntent.putExtras(extras);
-
-
-                myIntent.putExtra("EXTRA_DESCRIPCION",getResources().getString(R.string.contenido_8));  // MODIFICAR DESCRIPCION
-                v.getContext().startActivity(myIntent);
-            }
-        });
-        imageButton9.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                Intent myIntent = new Intent(getApplicationContext(), DetailActivity.class);
-                myIntent.putExtra("EXTRA_NAME", name9.getText());                    // MODIFICAR NAME
-
-                LatLng fromPosition = new LatLng(20.5932645,-100.3917004);           //  MODIFICAR LAT LNG
-
-                imageView9.buildDrawingCache();
-                Bitmap image= imageView9.getDrawingCache();
-
-                Bundle extras = new Bundle();
-                extras.putParcelable("imagebitmap", image);
-                extras.putParcelable("from_position", fromPosition);
-                myIntent.putExtras(extras);
-
-
-                myIntent.putExtra("EXTRA_DESCRIPCION",getResources().getString(R.string.contenido_9));  // MODIFICAR DESCRIPCION
-                v.getContext().startActivity(myIntent);
-            }
-        });
-        imageButton10.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent myIntent = new Intent(getApplicationContext(), DetailActivity.class);
-                myIntent.putExtra("EXTRA_NAME", name10.getText());                    // MODIFICAR NAME
-
-                LatLng fromPosition = new LatLng(20.5933286,-100.4121403);           //  MODIFICAR LAT LNG
-
-                imageView10.buildDrawingCache();
-                Bitmap image= imageView10.getDrawingCache();
-
-                Bundle extras = new Bundle();
-                extras.putParcelable("imagebitmap", image);
-                extras.putParcelable("from_position", fromPosition);
-                myIntent.putExtras(extras);
-
-
-                myIntent.putExtra("EXTRA_DESCRIPCION",getResources().getString(R.string.contenido_10));  // MODIFICAR DESCRIPCION
-                v.getContext().startActivity(myIntent);
-
-            }
-        });
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                onBackPressed();
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
     }
 }
