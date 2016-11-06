@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Hackathon</string>
+    <string name="facebook_app_id">1674708979507404</string>
+    <string name="fb_login_protocol_scheme">fb1674708979507404</string>
     <string name="title_activity_main">MainActivity</string>
-    <string name="openDrawer">Navigation View</string>
+    <string name="openDrawer">MainActivity</string>
     <string name="closeDrawer">Navigation View Closed</string>
+
 </resources>
