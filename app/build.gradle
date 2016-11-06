@@ -6,7 +6,7 @@ android {
 
     defaultConfig {
         applicationId "com.UAQ"
-        minSdkVersion 14
+        minSdkVersion 15
         targetSdkVersion 22
     }
 
@@ -18,8 +18,14 @@ android {
     }
 }
 
+repositories {
+    mavenCentral()
+}
+
 dependencies {
+    compile 'com.facebook.android:facebook-android-sdk:[4,5)'
     compile files('libs/unity-classes.jar')
     compile files('libs/Vuforia.jar')
     compile files('libs/VuforiaUnityPlayer.jar')
+    compile 'com.android.support:appcompat-v7:24.2.1'
 }
