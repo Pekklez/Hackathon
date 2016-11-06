@@ -29,6 +29,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.Window;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import java.io.InputStream;
@@ -41,8 +42,10 @@ public class MainActivity extends AppCompatActivity {
     private Toolbar toolbar;
     private NavigationView navigationView;
     private DrawerLayout drawerLayout;
+    TextView textView_user;
     ImageView imageViewFacebook_logged;
     Drawable imagen;
+    String idFacebook, userFacebook;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -52,7 +55,8 @@ public class MainActivity extends AppCompatActivity {
 
         //Get Image
 
-        String idFacebook = getIntent().getExtras().getString("idFacebook");
+        idFacebook = getIntent().getExtras().getString("idFacebook");
+        userFacebook = getIntent().getExtras().getString("userFb");
         new getUserPicFB(imagen).execute("https://graph.facebook.com/"+idFacebook+"/picture?type=large");
 
        // setToolbar();
@@ -211,6 +215,9 @@ public class MainActivity extends AppCompatActivity {
 
             imageViewFacebook_logged = (ImageView)findViewById(R.id.profile_image);
             imageViewFacebook_logged.setImageDrawable(imagen);
+
+            textView_user = (TextView)findViewById(R.id.username);
+            textView_user.setText(userFacebook);
 
         }
     }
