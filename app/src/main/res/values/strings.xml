@@ -7,4 +7,33 @@
     <string name="openDrawer">MainActivity</string>
     <string name="closeDrawer">Navigation View Closed</string>
 
+    <string name="titulo_1">Museo del Arte</string>
+    <string name="descripcion_1">Instituto Queretano de la Cultura y las Artes</string>
+
+    <string name="titulo_2">Jardín Guerrero</string>
+    <string name="descripcion_2">Dicha plaza es dedicada al insurgente Vicente Guerrero</string>
+
+    <string name="titulo_3">Parque Nacional el Cimatario</string>
+    <string name="descripcion_3">Reserva natural en un espacio de 2,500 hectáreas</string>
+
+    <string name="titulo_4">Plaza de los Fundadores</string>
+    <string name="descripcion_4">Zona conocida como Cerro de Sangremal, frente al Tempo de la Cruz</string>
+
+    <string name="titulo_5">Museo Regional</string>
+    <string name="descripcion_5">Construcción virreinal ubicada en el antiguo Convento de San Francisco</string>
+
+    <string name="titulo_6">Museo de la Restauración</string>
+    <string name="descripcion_6">Actualmente forma parte de las instalaciones del Convento de las Capuchinas</string>
+
+    <string name="titulo_7">Teatro de la República</string>
+    <string name="descripcion_7">Recinto oficial de la Orquesta Filarmónica del Estado de Querétaro y sede de eventos culturales</string>
+
+    <string name="titulo_8">Panteón de los Queretanos Ilustres</string>
+    <string name="descripcion_8">Primer panteón de la ciudad, actualmente descanso de personajes célebres y forjados de la historia queretana</string>
+
+    <string name="titulo_9">Cerro de las Campanas.</string>
+    <string name="descripcion_9">Esta loma emblemática alberga actualmente el Museo Cerro de las Campanas</string>
+
+    <string name="titulo_10">Casa de Ecala</string>
+    <string name="descripcion_10">Toma su nombre del regidor de la ciudad don Tomás López de Ecala en el siglo XVIII</string>
 </resources>

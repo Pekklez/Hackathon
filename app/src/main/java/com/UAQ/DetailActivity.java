@@ -3,6 +3,7 @@ package com.UAQ;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.design.widget.FloatingActionButton;
@@ -17,8 +18,29 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
+import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.MapView;
+import com.google.android.gms.maps.OnMapReadyCallback;
+import com.google.android.gms.maps.model.BitmapDescriptorFactory;
+import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.Marker;
+import com.google.android.gms.maps.model.MarkerOptions;
+
+import java.util.ArrayList;
 
 public class DetailActivity extends AppCompatActivity {
+
+    private GoogleMap mMap;
+    private MapView mapView;
+    private Marker marker;
+
+    private static final LatLng ONE = new LatLng(32.882216, -117.222028);
+    private static final LatLng TWO = new LatLng(32.872000, -117.232004);
+    private static final LatLng THREE = new LatLng(32.880252, -117.233034);
+    private static final LatLng FOUR = new LatLng(32.885200, -117.226003);
+
+    private ArrayList<LatLng> coords = new ArrayList<LatLng>();
+    private static final int POINTS = 4;
 
 
     private static final String EXTRA_NAME = "com.uaq.toolbarapp.name";
@@ -28,6 +50,16 @@ public class DetailActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
+
+        mapView = (MapView) findViewById(R.id.mapView);
+        mapView.onCreate(savedInstanceState);
+        mapView.getMapAsync(new OnMapReadyCallback() {
+            @Override
+            public void onMapReady(GoogleMap googleMap) {
+                setUpMap(googleMap);
+            }
+        });
+
 
         setToolbar();// Añadir action bar
         if (getSupportActionBar() != null) // Habilitar up button
@@ -42,7 +74,11 @@ public class DetailActivity extends AppCompatActivity {
                 (CollapsingToolbarLayout) findViewById(R.id.collapser);
         collapser.setTitle(name); // Cambiar título
 
-        loadImageParallax(idDrawable);// Cargar Imagen
+        Bundle extras = getIntent().getExtras();
+
+        Bitmap bmp = (Bitmap) extras.getParcelable("imagebitmap");
+        ImageView image = (ImageView) findViewById(R.id.image_paralax);
+        image.setImageBitmap(bmp );
 
         TextView textView_descripcion = (TextView) findViewById(R.id.descripcion_cardView);
         textView_descripcion.setText(descripcion);
@@ -87,6 +123,20 @@ public class DetailActivity extends AppCompatActivity {
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
+        }
+    }
+
+    private void setUpMap(GoogleMap map) {
+        mMap = map;
+
+        coords.add(ONE);
+        coords.add(TWO);
+        coords.add(THREE);
+        coords.add(FOUR);
+        for (int i = 0; i < POINTS; i++) {
+            mMap.addMarker(new MarkerOptions()
+                    .position(coords.get(i))
+                    .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED)));
         }
     }
 
