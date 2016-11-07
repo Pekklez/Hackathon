@@ -17,6 +17,7 @@ public class LogginActivity extends AppCompatActivity {
 
     LoginButton loginButton;
     CallbackManager callbackManager;
+    Profile profile;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +27,14 @@ public class LogginActivity extends AppCompatActivity {
 
         callbackManager = CallbackManager.Factory.create();
         loginButton = (LoginButton)findViewById(R.id.login_button);
+
+        profile = Profile.getCurrentProfile();
+        if(profile != null){
+            Intent intent = new Intent(LogginActivity.this, MainActivity.class);
+            intent.putExtra("idFacebook", profile.getId());
+            intent.putExtra("userFb", profile.getName());
+            startActivity(intent);
+        }
 
         loginButton.registerCallback(callbackManager, new FacebookCallback<LoginResult>() {
             @Override

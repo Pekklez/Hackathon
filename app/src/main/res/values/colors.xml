@@ -18,6 +18,7 @@
     <item name="azul" type="color">#009999</item>
     <item name="gris" type="color">#99989d</item>
     <item name="blanco" type="color">#FFF</item>
+    <item name="negro" type="color">#000</item>
 
     <color name="PrimaryColor">#00BCD4</color>
     <color name="PrimaryDarkColor">#0097A7</color>

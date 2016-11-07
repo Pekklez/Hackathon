@@ -35,15 +35,15 @@
                     style="@style/Widget.CardContent"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
-                    <!--Etiqueta Perfil -->
                     <TextView
-
+                        android:textColor="@color/negro"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Historia"
                         android:textAppearance="@style/TextAppearance.AppCompat.Title" />
                     <!--Texto de ejemplo-->
                     <TextView
+                        android:textColor="@color/negro"
                         android:id="@+id/descripcion_cardView"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content" />
@@ -62,12 +62,12 @@
                     android:layout_height="wrap_content">
                     <!--Etiqueta Perfil -->
                     <TextView
-
+                        android:textColor="@color/negro"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Galeria"
                         android:textAppearance="@style/TextAppearance.AppCompat.Title" />
-                    <!--Texto de ejemplo-->
+
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -99,6 +99,7 @@
                         android:weightSum="1">
 
                         <TextView
+                            android:textColor="@color/negro"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight=".5"
@@ -108,6 +109,7 @@
                             android:text="Actual"/>
 
                         <TextView
+                            android:textColor="@color/negro"
                             android:gravity="center"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"

@@ -37,6 +37,8 @@ import android.widget.TableRow;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.facebook.FacebookSdk;
+import com.facebook.login.LoginManager;
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.AsyncHttpResponseHandler;
 import com.loopj.android.http.RequestParams;
@@ -69,8 +71,10 @@ public class MainActivity extends AppCompatActivity {
         this.requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.acitivity_principal);
 
+        FacebookSdk.sdkInitialize(getApplicationContext());
+
         tlDetalleVenta = (TableLayout)findViewById(R.id.tl_detalle_venta);
-        obdatos("192.168.15.32", "/public_html/Tweets.php");
+        obdatos("192.168.15.31", "/Twitter/Tweets.php");
 
         //Get Image
 
@@ -98,7 +102,7 @@ public class MainActivity extends AppCompatActivity {
                 switch (item.getItemId()) {
 
                     case R.id.twitter:
-                        //
+                        startActivity(new Intent(getApplicationContext(), MainActivity.class));
                         return true;
                     // For rest of the options we just show a toast on click
                     case R.id.places:
@@ -109,7 +113,11 @@ public class MainActivity extends AppCompatActivity {
                         startActivity(new Intent(getApplicationContext(), MapsActivity.class));
                         return true;
                     case R.id.reporte:
-                        //startActivity(new Intent(getApplicationContext(), ActivityMaps.class));
+                        startActivity(new Intent(getApplicationContext(), Alerta.class));
+                        return true;
+                    case R.id.logout:
+                        LoginManager.getInstance().logOut();
+                        startActivity(new Intent(getApplicationContext(), LogginActivity.class));
                         return true;
 
                     default:
@@ -186,6 +194,8 @@ public class MainActivity extends AppCompatActivity {
             String idUser="";
             String textoTw="";
 
+            TableRow row = new TableRow(getBaseContext());
+
             for(int i = 0 ; i < jsonArray.length(); i++)
             {
                 textoTw  =   "    " + jsonArray.getJSONObject(i).getString("text");
@@ -197,7 +207,7 @@ public class MainActivity extends AppCompatActivity {
 
 
                 //Definir Table Row
-                TableRow row = new TableRow(getBaseContext());
+                row = new TableRow(getBaseContext());
                 /*
                 * Dar parametos Al Table Row
                 *   MATCH_PARENT
@@ -207,6 +217,7 @@ public class MainActivity extends AppCompatActivity {
                 TableRow.LayoutParams params1 = new TableRow.LayoutParams(TableRow.LayoutParams.MATCH_PARENT, TableRow.LayoutParams.WRAP_CONTENT, 10f);
                 row.setPadding(10, 10, 10, 10);
                 row.setLayoutParams(params1);
+
 
                 //TextView 1 -----------------------------------------------------------------------
                 TextView tv01 = new TextView(getBaseContext());
@@ -220,26 +231,16 @@ public class MainActivity extends AppCompatActivity {
                 tv01.setLayoutParams(params2);
                 tv01.setPadding(30,30,30,30);
                 //TextView 1 seleccionar Texto
-                tv01.setText(idUser + "\n" + "\n" + textoTw);
                 tv01.setElevation(10);
 
                 tv01.setText(Html.fromHtml("<b>"+idUser+"</b><br><br><p align=\"justify\">"+textoTw+"</p>"));
 
 
-                if((i+1)%2 == 0)
-                {
-                    //Si Es "Par" La Fila "BackgroundColor" = White
-                    tv01.setBackgroundColor(Color.WHITE);
-                    tv01.setTextColor(Color.GRAY);
+                //Si Es "Par" La Fila "BackgroundColor" = White
+                tv01.setBackgroundColor(Color.WHITE);
+                tv01.setTextColor(Color.GRAY);
 
-                }
-                else
-                {
-                    //Si Es "Impar" La Fila "BackgroundColor" = row 2 "Azul"
-                    tv01.setBackgroundColor(Color.WHITE);
-                    tv01.setTextColor(Color.GRAY);
 
-                }
 
                 //Agregar TextView Al TableRow------------------------------------------------------
                 row.addView(tv01);
@@ -345,11 +346,11 @@ public class MainActivity extends AppCompatActivity {
             roundedDrawable.setCornerRadius(resized.getHeight());
             imagen = roundedDrawable;
 
-            //imageViewFacebook_logged = (ImageView)findViewById(R.id.profile_image);
-            //imageViewFacebook_logged.setImageDrawable(imagen);
+            imageViewFacebook_logged = (ImageView)findViewById(R.id.profile_image);
+            imageViewFacebook_logged.setImageDrawable(imagen);
 
-            //textView_user = (TextView)findViewById(R.id.username);
-            //textView_user.setText(userFacebook);
+            textView_user = (TextView)findViewById(R.id.username);
+            textView_user.setText(userFacebook);
 
         }
     }

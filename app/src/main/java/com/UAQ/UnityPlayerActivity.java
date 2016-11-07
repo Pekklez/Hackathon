@@ -2,6 +2,7 @@ package com.UAQ;
 
 import com.unity3d.player.*;
 import android.app.Activity;
+import android.content.Intent;
 import android.content.res.Configuration;
 import android.graphics.PixelFormat;
 import android.os.Bundle;
@@ -47,6 +48,13 @@ public class UnityPlayerActivity extends Activity
 	{
 		super.onResume();
 		mUnityPlayer.resume();
+	}
+
+
+	@Override
+	public void onBackPressed() {
+		super.onBackPressed();
+		startActivity(new Intent(getApplicationContext(), ItemsGrid.class));
 	}
 
 	// This ensures the layout will be correct.
